@@ -1,7 +1,7 @@
-LGA Name,,Tenure type,"Very low income,,,
-<50% median income",,"Low income,,,,
-<80% median income",,"Moderate income,,,,
-<120% median income",,Total,,,,
+LGA Name,,Tenure type,"Very low income
+<50% median income","Low income
+<80% median income","Moderate income
+<120% median income",Total
 Adelaide,C,Being purchased (incl rent/buy),82,116,227,525
 Adelaide,C,Rented: Public,208,229,236,236
 Adelaide,C,Rented: Private and not stated,931,1210,1617,1901
