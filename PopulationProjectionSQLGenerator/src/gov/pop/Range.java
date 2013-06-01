@@ -15,5 +15,11 @@ public class Range {
 		return lower + " to " + upper + " years";
 	}
 	
+	public int getLower() {
+		return lower;
+	}
 	
+	public int getUpper() {
+		return upper;
+	}
 }
