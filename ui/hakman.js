@@ -30,10 +30,10 @@ Ext.onReady(function() {
 	var layer = new OpenLayers.Layer.WMS(
 			"Blue Marble - Global Imagery",
 			"http://maps.opengeo.org/geowebcache/service/wms",
-			{layers: "bluemarble"}, {wrapDateLine: true}
+			{layers: "bluemarble"}, {wrapDateLine: true, transitionEffect: 'resize'}
 	);
 	var openStreetMap = new OpenLayers.Layer.WMS( "OSGEO Base Map",
-			"http://vmap0.tiles.osgeo.org/wms/vmap0", {layers: 'basic'}, {wrapDateLine: true} ); 
+			"http://vmap0.tiles.osgeo.org/wms/vmap0", {layers: 'basic'}, {wrapDateLine: true, transitionEffect: 'resize'} ); 
 	
 	// create our heatmap layer
 //	var heatmap = new OpenLayers.Layer.Heatmap("Heatmap Layer", map, layer, 
