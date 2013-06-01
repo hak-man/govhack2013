@@ -1,3 +1,5 @@
+DROP TABLE h2l_data;
+CREATE TABLE h2l_data (hgid numeric, hobjectid numeric, lgid numeric, lobjectid numeric, distance numeric, traveltime numeric);
 INSERT INTO h2l_data VALUES (11054,12119,1,1,226.527452,11075);
 INSERT INTO h2l_data VALUES (11054,12119,2,2,231.03177,11485);
 INSERT INTO h2l_data VALUES (11054,12119,3,3,227.04368,11048);
