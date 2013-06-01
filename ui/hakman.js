@@ -35,8 +35,61 @@ Ext.onReady(function() {
 	var openStreetMap = new OpenLayers.Layer.WMS( "OSGEO Base Map",
 			"http://vmap0.tiles.osgeo.org/wms/vmap0", {layers: 'basic'}, {wrapDateLine: true} ); 
 	
+	// create our heatmap layer
+	var heatmap = new OpenLayers.Layer.Heatmap("Heatmap Layer", map, layer, 
+			{visible: true, radius:10}, 
+			{isBaseLayer: false, opacity: 0.3, projection: new OpenLayers.Projection("EPSG:4326"), wrapDateLine: true});
+	
+	
 	map.addLayer(layer);
 	map.addLayer(openStreetMap);
+	map.addLayer(heatmap);
+	
+	//---
+	// Heatmap test data
+	//---
+	
+	var randDbl = function(offset, range) {
+		if (!offset) offset = 0;
+		if (!range) range = 5;
+		return Math.random() * range - range + offset;
+	}
+	
+	var randInt = function(offset, range) {
+		return Math.floor(randDbl(offset, range)); 
+	}
+	
+	var data = [];
+	for (var i=0; i<1000; ++i) {
+		data.push({lat: randDbl(-34), lon: randDbl(138), count:  randInt(10) + 5})
+	}
+	
+	// here is our dataset
+	// important: a datapoint now contains lat, lng and count property!
+	var testData={
+		max: 10,
+		data: data
+	};
+	
+	
+	var transformedTestData = { max: testData.max , data: [] },
+	data = testData.data,
+	datalen = data.length,
+	nudata = [];
+	 
+	// in order to use the OpenLayers Heatmap Layer we have to transform our data into
+	// { max: , data: [{lonlat: , count: },...]}
+	while(datalen--){
+		nudata.push({
+			lonlat: new OpenLayers.LonLat(data[datalen].lon, data[datalen].lat),
+			count: data[datalen].count
+		});
+	}
+	transformedTestData.data = nudata;
+	
+	console.dir(transformedTestData);
+	
+	//heatmap.setDataSet(transformedTestData);
 	
 	//---
 	// Controls
@@ -120,8 +173,16 @@ Ext.onReady(function() {
 		text: "<b>&nbsp;Overlays</b>",
 		expanded: true,
 		singleClickExpand: true,
-		children: []
-	},{
+		children: [{
+			nodeType: "gx_layer",
+			layer: heatmap,
+			listeners: {
+				click: function () {
+					opacitySlider.setLayer(this.layer);
+				}
+			}
+		}]
+		},{
 		text: "<b>&nbsp;Base Layer</b>",
 		expanded: true,
 		singleClickExpand: true,
@@ -230,7 +291,7 @@ Ext.onReady(function() {
 			xtype:'panel',
 			id: 'headerPanel',
 			frame: true,
-			html:"<div id='header'>Unprepared</div>",
+			html:"<div id='header'>Suburban Heat</div>",
 			collapsible: false,
 			region: 'north'
 		}]
@@ -248,6 +309,8 @@ Ext.onReady(function() {
 	// set map
 	map.setCenter(new OpenLayers.LonLat(138, -34));
 	map.zoomTo(4);
+	
+	heatmap.setDataSet(transformedTestData);
 	
 	
 	//---
