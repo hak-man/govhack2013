@@ -1,0 +1,21 @@
+Query Strings for Adelaide Metro site
+
+http://jp.adelaidemetro.com.au/opentripplanner-webapp/index.html#/submit&fromPlace=ADELAIDE,%205000::-34.92849887666179,138.60074544402892&toPlace=THEBARTON,%205031::-34.91518043247118,138.57247822595417&mode=BUS,RAIL,TRAM,WALK&min=TRANSFERS&maxWalkDistance=750&walkSpeed=0.833&time=9:45%20am&date=01/06/13&arriveBy=false&itinID=1&wheelchair=&preferredRoutes=&unpreferredRoutes=
+
+Returns page with times for travel.
+
+http://www.adelaidemetro.com.au/jp/results/?&fromPlace=ADELAIDE,%205000::-34.92849887666179,138.60074544402892&toPlace=THEBARTON,%205031::-34.91518043247118,138.57247822595417&mode=BUS,RAIL,TRAM,WALK&min=TRANSFERS&maxWalkDistance=750&time=9:55%20am&date=01/06/13&arr=Depart
+
+Breakdown of query params:
+http://www.adelaidemetro.com.au/jp/results/?
+&fromPlace=ADELAIDE,%205000::-34.92849887666179,138.60074544402892 <- <location name URL encoded from gazzetteer lookup>::<lon><lat>
+&toPlace=THEBARTON,%205031::-34.91518043247118,138.57247822595417
+&mode=BUS,RAIL,TRAM,WALK
+&min=TRANSFERS <- <QUICK | TRANSFERS> 
+&maxWalkDistance=750
+&time=9:55%20am
+&date=01/06/13
+&arr=Depart <- <Depart | Arrive>
+
+To get journey time Pull out div with "itinerary" ID. Then 3rd table row, or look for element content with "Time". However the ID is not unique on the page! Can be made unique if selected with parent div with ID "option-x" where x is a number indexed from 1.
+<div id="itinerary"><table><tbody><tr><td><strong>When</strong></td><td>10:00am Saturday, June 1, 2013</td></tr><tr><td><strong>Preferences</strong></td><td>Fewest transfers with a maximum walk of 750 Metres.</td></tr><tr><td><strong>Time</strong></td><td>25 minutes</td></tr><tr><td><strong>Transfers</strong></td><td>1</td></tr></tbody></table></div>

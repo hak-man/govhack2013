@@ -1,0 +1,1658 @@
+From: "Saved by Windows Internet Explorer 9"
+Subject: Dataset Details
+Date: Tue, 23 Apr 2013 14:14:37 +0930
+MIME-Version: 1.0
+Content-Type: multipart/related;
+	type="text/html";
+	boundary="----=_NextPart_000_0000_01CE402C.E3009D10"
+X-MimeOLE: Produced By Microsoft MimeOLE V6.1.7601.17609
+
+This is a multi-part message in MIME format.
+
+------=_NextPart_000_0000_01CE402C.E3009D10
+Content-Type: text/html;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://sim.deh.sa.gov.au/sim/dataSet-display.do?cmd=DataSetDto&dsNumber=42
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML lang=3Den><HEAD><TITLE>Dataset Details</TITLE>
+<META content=3D"text/html; charset=3Diso-8859-1" =
+http-equiv=3DContent-Type><LINK=20
+rel=3Dstylesheet type=3Dtext/css=20
+href=3D"http://sim.deh.sa.gov.au/sim/layout/stylesheets/global.css"=20
+media=3Dscreen><LINK rel=3Dstylesheet type=3Dtext/css=20
+href=3D"http://sim.deh.sa.gov.au/sim/layout/stylesheets/tabs.css"=20
+media=3Dscreen><LINK rel=3Dstylesheet type=3Dtext/css=20
+href=3D"http://sim.deh.sa.gov.au/sim/layout/stylesheets/xc2_default.css" =
+
+media=3Dscreen><LINK rel=3Dstylesheet type=3Dtext/css=20
+href=3D"http://sim.deh.sa.gov.au/sim/layout/stylesheets/style.css" =
+media=3Dscreen>
+<SCRIPT type=3Dtext/javascript=20
+src=3D"http://sim.deh.sa.gov.au/sim/layout/scripts/tabs.js"></SCRIPT>
+
+<SCRIPT type=3Dtext/javascript=20
+src=3D"http://sim.deh.sa.gov.au/sim/layout/scripts/global.js"></SCRIPT>
+
+<SCRIPT type=3Dtext/javascript=20
+src=3D"http://sim.deh.sa.gov.au/sim/layout/scripts/xc2_default.js"></SCRI=
+PT>
+
+<SCRIPT type=3Dtext/javascript=20
+src=3D"http://sim.deh.sa.gov.au/sim/layout/scripts/oseidon.js"></SCRIPT>
+
+<META name=3DGENERATOR content=3D"MSHTML 9.00.8112.16457"></HEAD>
+<BODY>
+<DIV style=3D"WIDTH: 100%" id=3Ddisplay><BR>
+<FORM id=3DframeMy>
+<H2 style=3D"COLOR: #8b8b00">DCDB - Local Government Areas</H2>
+<TABLE cellSpacing=3D10>
+  <TBODY>
+  <TR>
+    <TD><A=20
+      =
+href=3D"http://sim.deh.sa.gov.au/sim/dataSet-display.do?cmd=3DDataSetDto&=
+amp;dsNumber=3D42#CUSTODIANS">Custodians</A></TD>
+    <TD><A=20
+      =
+href=3D"http://sim.deh.sa.gov.au/sim/dataSet-display.do?cmd=3DDataSetDto&=
+amp;dsNumber=3D42#DATAQUALITY">Data=20
+      Quality</A></TD>
+    <TD><A=20
+      =
+href=3D"http://sim.deh.sa.gov.au/sim/dataSet-display.do?cmd=3DDataSetDto&=
+amp;dsNumber=3D42#GEOGEXTENT">Geographic=20
+      Extent</A></TD>
+    <TD><A=20
+      =
+href=3D"http://sim.deh.sa.gov.au/sim/dataSet-display.do?cmd=3DDataSetDto&=
+amp;dsNumber=3D42#STATUS">Status</A></TD>
+    <TD><A=20
+      =
+href=3D"http://sim.deh.sa.gov.au/sim/dataSet-display.do?cmd=3DDataSetDto&=
+amp;dsNumber=3D42#SPEC">Specification</A></TD>
+    <TD><A=20
+      =
+href=3D"http://sim.deh.sa.gov.au/sim/dataSet-display.do?cmd=3DDataSetDto&=
+amp;dsNumber=3D42#ITEM">Items</A></TD>
+    <TD><A=20
+      =
+href=3D"http://sim.deh.sa.gov.au/sim/dataSet-display.do?cmd=3DDataSetDto&=
+amp;dsNumber=3D42#CONTACT">Environmental=20
+      Information Contact</A></TD></TR></TBODY></TABLE><BR>
+<TABLE>
+  <TBODY>
+  <TR></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-BOTTOM: #cccccc 1px solid; COLOR: #8b8b00; =
+BORDER-TOP: #cccccc 1px solid"><B>Dataset=20
+      Details </B></TD></TR>
+  <TR>
+    <TD>
+      <TABLE class=3DdisplayTable cellSpacing=3D0 cellPadding=3D3>
+        <TBODY>
+        <TR>
+          <TD align=3Dleft>Dataset Number</TD>
+          <TD align=3Dleft>42</TD></TR>
+        <TR>
+          <TD align=3Dleft>Class</TD>
+          <TD align=3Dleft>ENV Copy</TD></TR>
+        <TR>
+          <TD align=3Dleft>Title</TD>
+          <TD align=3Dleft>DCDB - Local Government Areas</TD></TR>
+        <TR>
+          <TD align=3Dleft>Category</TD>
+          <TD align=3Dleft>Government</TD></TR>
+        <TR>
+          <TD align=3Dleft>Theme</TD>
+          <TD align=3Dleft>Local government boundaries</TD></TR>
+        <TR>
+          <TD align=3Dleft>Dataset Type</TD>
+          <TD align=3Dleft>Spatial</TD></TR>
+        <TR>
+          <TD align=3Dleft>Description</TD>
+          <TD align=3Dleft>This dataset records the location and extent =
+of the=20
+            local government areas within South Australia and their =
+relationship=20
+            to the Cadastre. Local Government Areas are an =
+administrative theme=20
+            to the Digital Cadastral DataBase (DCDB). Local Government =
+Areas are=20
+            under the control of local governing bodies. The Local =
+Government=20
+            Authority defines the Local Government Areas.</TD></TR>
+        <TR>
+          <TD align=3Dleft>Dataset Use</TD>
+          <TD align=3Dleft>Can be used as a reference, backdrop or as a=20
+            selection set, providing target data is not cadastrally=20
+        defined.</TD></TR></TBODY></TABLE><BR></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-BOTTOM: #cccccc 1px solid; COLOR: #8b8b00; =
+BORDER-TOP: #cccccc 1px solid"><A=20
+      name=3DCUSTODIANS target=3D_top></A><B>Custodians</B> </TD></TR>
+  <TR>
+    <TD>
+      <TABLE class=3DdisplayTable cellSpacing=3D0 cellPadding=3D3>
+        <TBODY>
+        <TR>
+          <TD>DTEI - Land Services Group - Land Boundaries=20
+      Branch</TD></TR></TBODY></TABLE><BR></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-BOTTOM: #cccccc 1px solid; COLOR: #8b8b00; =
+BORDER-TOP: #cccccc 1px solid"><A=20
+      name=3DDATAQUALITY></A><B>Data Quality</B> </TD></TR>
+  <TR>
+    <TD>
+      <TABLE class=3DdisplayTable cellSpacing=3D0 cellPadding=3D3>
+        <TBODY>
+        <TR>
+          <TD align=3Dleft>Lineage</TD>
+          <TD align=3Dleft>Collected by DEHAA initially and transferred =
+to=20
+            Planning SA where data was corrected and snapped to DCDB =
+with=20
+            Planning Zones. Council amalgamations and boundary changes =
+are being=20
+            included as they occur.</TD></TR>
+        <TR>
+          <TD align=3Dleft>Data Capture Method </TD>
+          <TD align=3Dleft>Digitising ; </TD></TR>
+        <TR>
+          <TD align=3Dleft>Data Capture Scale </TD>
+          <TD align=3Dleft>1:10 000 ; 1:50 000 ; </TD></TR>
+        <TR>
+          <TD align=3Dleft>Completeness</TD>
+          <TD align=3Dleft>Spatial and attribute data are 100% complete =
+for the=20
+            State and comply with government classification standards. =
+The=20
+            boundaries are modified, if necessary, in accordance with =
+the advice=20
+            of the Local Government Authority through the Government=20
+        Gazette.</TD></TR>
+        <TR>
+          <TD align=3Dleft>Positional Accuracy</TD>
+          <TD align=3Dleft>Local Government Areas were acquired with =
+reference=20
+            to Digital Cadastral DataBase (DCDB) themes. Consequently, =
+the=20
+            positional accuracy of the Local Government Areas are =
+dependent upon=20
+            the scale of the source mapping and the manual digitising =
+process=20
+            used to capture the cadastre. Relationships exist with other =
+DCDB=20
+            themes (Cadastre, Road Centrelines, and Suburbs) and =
+external data=20
+            sources (topographic features such as watercourses, railway =
+tracks=20
+            etc from the Topographic Information System (TOPIS)). Any=20
+            repositioning, amending or upgrading this data affects the =
+Local=20
+            Government Area theme.</TD></TR>
+        <TR>
+          <TD align=3Dleft>Attribute Accuracy</TD>
+          <TD align=3Dleft>The attributes associated with each Local =
+Government=20
+            Area are the, type, abbreviated name and full name. It is =
+estimated=20
+            that the accuracy of the information is 100%.</TD></TR>
+        <TR>
+          <TD align=3Dleft>Consistency</TD>
+          <TD align=3Dleft>The dataset is stored digitally. Tests for =
+logical=20
+            consistency are carried out automatically using geographic=20
+            information system software. ARC/SDE software is used to =
+maintain=20
+            the Local Government Areas.</TD></TR>
+        <TR>
+          <TD align=3Dleft>Comments</TD>
+          <TD align=3Dleft></TD></TR></TBODY></TABLE><BR></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-BOTTOM: #cccccc 1px solid; COLOR: #8b8b00; =
+BORDER-TOP: #cccccc 1px solid"><A=20
+      name=3DGEOGEXTENT></A><B>Geographic Extent</B> </TD></TR>
+  <TR>
+    <TD>
+      <TABLE class=3DdisplayTable cellSpacing=3D0 cellPadding=3D3>
+        <TBODY>
+        <TR>
+          <TD align=3Dleft>Extent Name</TD>
+          <TD align=3Dleft>Incorporated Areas - South Australia</TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD align=3Dleft>Min Easting</TD>
+          <TD align=3Dleft>133.077</TD>
+          <TD align=3Dleft>Min Northing</TD>
+          <TD align=3Dleft>-38.177</TD></TR>
+        <TR>
+          <TD align=3Dleft>Max Easting</TD>
+          <TD align=3Dleft>141</TD>
+          <TD align=3Dleft>Max Northing</TD>
+          <TD =
+align=3Dleft>-28.841</TD></TR></TBODY></TABLE><BR></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-BOTTOM: #cccccc 1px solid; COLOR: #8b8b00; =
+BORDER-TOP: #cccccc 1px solid"><A=20
+      name=3DSTATUS></A><B>Status</B> </TD></TR>
+  <TR>
+    <TD>
+      <TABLE class=3DdisplayTable cellSpacing=3D0 cellPadding=3D3>
+        <TBODY>
+        <TR>
+          <TD align=3Dleft>Date Acquired</TD>
+          <TD align=3Dleft>01-MAR-1996</TD>
+          <TD align=3Dleft>Last Update Date</TD>
+          <TD align=3Dleft></TD></TR>
+        <TR>
+          <TD align=3Dleft>Update Frequency </TD>
+          <TD colSpan=3D3 align=3Dleft>Daily</TD></TR>
+        <TR>
+          <TD align=3Dleft>Maintenance Method </TD>
+          <TD colSpan=3D3 align=3Dleft>Boundaries updated on a regular =
+basis.=20
+            Amalgamations of council boundaries revised when required =
+following=20
+            notification in Government Gazette.</TD></TR>
+        <TR>
+          <TD align=3Dleft>Progress</TD>
+          <TD colSpan=3D3 align=3Dleft>In Progress</TD></TR>
+        <TR>
+          <TD align=3Dleft>Ending Date </TD>
+          <TD colSpan=3D3 align=3Dleft>CURRENT</TD></TR>
+        <TR>
+          <TD align=3Dleft>Restrictions</TD>
+          <TD colSpan=3D3 align=3Dleft>Digital data is supplied to =
+clients on=20
+            request subject to the conditions defined in associated data =
+use=20
+            agreements. Digital data is provided for non-commercial use =
+at cost=20
+            of transfer (i.e. to State and Local Government clients).=20
+        </TD></TR></TBODY></TABLE><BR></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-BOTTOM: #cccccc 1px solid; COLOR: #8b8b00; =
+BORDER-TOP: #cccccc 1px solid"><A=20
+      name=3DSPEC></A><B>Specification</B> </TD></TR>
+  <TR>
+    <TD>
+      <TABLE class=3DdisplayTable cellSpacing=3D0 cellPadding=3D3>
+        <TBODY>
+        <TR>
+          <TD align=3Dleft>Format Type </TD>
+          <TD align=3Dleft>ARC/INFO ; ArcSDE Feature Class ; </TD></TR>
+        <TR>
+          <TD align=3Dleft>Data Type </TD>
+          <TD align=3Dleft>ARC/INFO Polygons ; ArcSDE Feature Class - =
+Polygons ;=20
+          </TD></TR>
+        <TR>
+          <TD align=3Dleft>Available Format Type</TD>
+          <TD align=3Dleft>ARC/INFO ; ESRI Shapefile ; ESRI Personal =
+GeoDataBase=20
+            ; </TD></TR>
+        <TR>
+          <TD align=3Dleft>Precision </TD>
+          <TD align=3Dleft>Single</TD>
+          <TD align=3Dleft>Data Size </TD>
+          <TD align=3Dleft>1.44 - 5 =
+Mb</TD></TR></TBODY></TABLE><BR></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-BOTTOM: #cccccc 1px solid; COLOR: #8b8b00; =
+BORDER-TOP: #cccccc 1px solid"><A=20
+      name=3DITEM></A><B>Items</B> </TD></TR>
+  <TR>
+    <TD>
+      <TABLE class=3DdisplayTable cellSpacing=3D0 cellPadding=3D3>
+        <TBODY>
+        <TR>
+          <TD align=3Dleft>Table Name:</TD>
+          <TD>DCDB.LGA ArcSDE Feature Class =
+Table</TD></TR></TBODY></TABLE>
+      <TABLE>
+        <TBODY>
+        <TR>
+          <TD colSpan=3D2>
+            <TABLE border=3D1>
+              <TBODY>
+              <TR>
+                <TD align=3Dleft>Name</TD>
+                <TD align=3Dleft>Datatype</TD>
+                <TD align=3Dleft>Width </TD>
+                <TD align=3Dleft>Output</TD>
+                <TD align=3Dleft>No Dec.</TD>
+                <TD align=3Dleft>Complete (%)</TD>
+                <TD align=3Dleft>Accuracy (%)</TD>
+                <TD align=3Dleft>Description</TD></TR>
+              <TR>
+                <TD align=3Dleft>LGATYPE</TD>
+                <TD align=3Dleft>Character</TD>
+                <TD align=3Dleft>3</TD>
+                <TD align=3Dleft>3</TD>
+                <TD align=3Dleft>0</TD>
+                <TD align=3Dleft>&gt;90</TD>
+                <TD align=3Dleft>&gt;90</TD>
+                <TD align=3Dleft>Link to Type of LGA. Corporate City, =
+Corporate=20
+                  Town, District Council, Municipal Council, Regional =
+Council or=20
+                  Water District</TD></TR>
+              <TR>
+                <TD align=3Dleft>ABBNAME</TD>
+                <TD align=3Dleft>Character</TD>
+                <TD align=3Dleft>60</TD>
+                <TD align=3Dleft>60</TD>
+                <TD align=3Dleft>0</TD>
+                <TD align=3Dleft>&gt;90</TD>
+                <TD align=3Dleft>&gt;90</TD>
+                <TD align=3Dleft>Abbreviated name of the LGA</TD></TR>
+              <TR>
+                <TD align=3Dleft>LGA</TD>
+                <TD align=3Dleft>Character</TD>
+                <TD align=3Dleft>60</TD>
+                <TD align=3Dleft>60</TD>
+                <TD align=3Dleft>0</TD>
+                <TD align=3Dleft>&gt;90</TD>
+                <TD align=3Dleft>&gt;90</TD>
+                <TD align=3Dleft>Name of the Local Government =
+Area</TD></TR>
+              <TR>
+                <TD align=3Dleft>LGA Name</TD>
+                <TD align=3Dleft>Character</TD>
+                <TD align=3Dleft>30</TD>
+                <TD align=3Dleft>30</TD>
+                <TD align=3Dleft>0</TD>
+                <TD align=3Dleft></TD>
+                <TD align=3Dleft></TD>
+                <TD align=3Dleft>Name of=20
+      LGA</TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></TD></TR>
+  <TR>
+    <TD><BR></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-BOTTOM: #cccccc 1px solid; COLOR: #8b8b00; =
+BORDER-TOP: #cccccc 1px solid"><A=20
+      name=3DCONTACT></A><B>Environmental Information Contact</B> =
+</TD></TR>
+  <TR>
+    <TD>
+      <TABLE class=3DdisplayTable cellSpacing=3D0 cellPadding=3D3>
+        <TBODY>
+        <TR>
+          <TD align=3Dleft>Customer Service Centre</TD>
+          <TD align=3Dleft>Email</TD>
+          <TD =
+align=3Dleft>DENR.CustomerServiceCentre@sa.gov.au</TD></TR>
+        <TR>
+          <TD align=3Dleft>DENR - Client Services</TD>
+          <TD align=3Dleft>Telephone</TD>
+          <TD align=3Dleft>(08) 8463 3999</TD></TR>
+        <TR>
+          <TD align=3Dleft>GPO Box 1047</TD>
+          <TD align=3Dleft>Facsimile</TD>
+          <TD align=3Dleft>(08) 8115 5594</TD></TR>
+        <TR>
+          <TD align=3Dleft>ADELAIDE</TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD align=3Dleft>SA 5001</TD>
+          <TD></TD>
+          <TD></TD></TR></TBODY></TABLE><BR></TD></TR>
+  <TR>
+    <TD=20
+    style=3D"BORDER-BOTTOM: #cccccc 1px solid; COLOR: #8b8b00; =
+BORDER-TOP: #cccccc 1px solid"><B>External=20
+      Contact </B></TD></TR>
+  <TR>
+    <TD>
+      <TABLE class=3DdisplayTable cellSpacing=3D0 cellPadding=3D3>
+        <TBODY>
+        <TR>
+          <TD align=3Dleft>Mauri Trinca (Team Leader - Spatial =
+Maintenance=20
+          Unit)</TD>
+          <TD align=3Dleft>Email</TD>
+          <TD align=3Dleft>mauri.trinca@sa.gov.au</TD></TR>
+        <TR>
+          <TD align=3Dleft>Land Boundaries Branch, DTEI - Land Services =
+Group</TD>
+          <TD align=3Dleft>Telephone</TD>
+          <TD align=3Dleft>(08) 8463 3756</TD></TR>
+        <TR>
+          <TD align=3Dleft>GPO Box 1354</TD>
+          <TD align=3Dleft>Facsimile</TD>
+          <TD align=3Dleft>(08) 8204 8544</TD></TR>
+        <TR>
+          <TD align=3Dleft>ADELAIDE</TD>
+          <TD></TD>
+          <TD></TD></TR>
+        <TR>
+          <TD align=3Dleft>SA 5001</TD>
+          <TD></TD>
+          =
+<TD></TD></TR></TBODY></TABLE></TD></TR></TBODY></TABLE></FORM></DIV>
+<DIV style=3D"WIDTH: 100%" id=3Dfooter>
+<DIV id=3Dbackground>
+<DIV id=3Dwrap>
+<DIV id=3Dbackground_shaddow>
+<DIV id=3Dcss_sagovau_footer_container>
+<DIV id=3Dcss_sagovau_address><A title=3Dsa.gov.au =
+href=3D"http://www.sa.gov.au/"=20
+target=3D_blank><IMG border=3D0=20
+alt=3D"Link to sa.gov.au - find what you're looking for"=20
+src=3D"http://sim.deh.sa.gov.au/sim/images/common/SA-Gov_logo_trans.png">=
+</A></DIV>
+<DIV id=3Dcss_sagovau_footer margin-left=3D"15px">
+<DIV class=3Dcss_sagovau>
+<UL>
+  <LI><A title=3DCopyright =
+href=3D"http://www.sa.gov.au/static/copyright.aspx"=20
+  target=3D_blank>=A9 Copyright, Department of Environment, Water and =
+Natural=20
+  Resources 2012</A>&nbsp;&nbsp;|&nbsp;&nbsp;=20
+  <LI><A title=3DDisclaimer =
+href=3D"http://www.sa.gov.au/site/disclaimer"=20
+  target=3D_blank>Disclaimer</A>&nbsp;&nbsp;|&nbsp;&nbsp;=20
+  <LI><A title=3DPrivacy=20
+  =
+href=3D"http://www.environment.sa.gov.au/Home/Privacy_statement">Privacy<=
+/A>&nbsp;&nbsp;|&nbsp;&nbsp;=20
+
+  <LI><A title=3DAccessibility=20
+  =
+href=3D"http://www.environment.sa.gov.au/Home/Accessibility">Accessibilit=
+y</A>=20
+  </LI></UL></DIV></DIV></DIV></DIV></DIV></DIV></DIV></BODY></HTML>
+
+------=_NextPart_000_0000_01CE402C.E3009D10
+Content-Type: image/png
+Content-Transfer-Encoding: base64
+Content-Location: http://sim.deh.sa.gov.au/sim/images/common/SA-Gov_logo_trans.png
+
+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
+6/8JMAAJszs/oJ5YegAAAABJRU5ErkJggg==
+
+------=_NextPart_000_0000_01CE402C.E3009D10
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://sim.deh.sa.gov.au/sim/layout/stylesheets/global.css
+
+BODY {
+	PADDING-BOTTOM: 0px; FONT-STYLE: normal; MARGIN: 10px; PADDING-LEFT: =
+0px; PADDING-RIGHT: 0px; FONT-FAMILY: Arial; BACKGROUND: #ffffff; =
+FONT-SIZE: 11pt; PADDING-TOP: 0px
+}
+A:link {
+	COLOR: #999999; TEXT-DECORATION: none
+}
+A:visited {
+	COLOR: #999999; TEXT-DECORATION: none
+}
+A:hover {
+	COLOR: #bdb76b; TEXT-DECORATION: underline
+}
+DIV#header {
+	HEIGHT: 50px
+}
+DIV#content {
+	PADDING-BOTTOM: 30px; MARGIN: 0px; PADDING-LEFT: 30px; PADDING-RIGHT: =
+30px; CLEAR: both; PADDING-TOP: 30px
+}
+DIV#display {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; =
+PADDING-BOTTOM: 30px; MARGIN: 0px; PADDING-LEFT: 30px; PADDING-RIGHT: =
+30px; CLEAR: both; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: #cccccc =
+1px solid; PADDING-TOP: 30px
+}
+DIV#content TD {
+	FONT-SIZE: 11pt
+}
+DIV#popupHeading {
+	BORDER-BOTTOM: #cccccc 1px solid; PADDING-BOTTOM: 19px; MARGIN: 0px; =
+PADDING-LEFT: 10px
+}
+DIV#popupTitle {
+	BORDER-BOTTOM: #ffffff 1px solid; BORDER-LEFT: #cccccc 1px solid; =
+PADDING-BOTTOM: 2px; LINE-HEIGHT: 14px; PADDING-LEFT: 10px; =
+PADDING-RIGHT: 10px; BACKGROUND: #ffffff; FLOAT: left; COLOR: #8b8b00; =
+FONT-SIZE: small; BORDER-TOP: #cccccc 1px solid; FONT-WEIGHT: bold =
+!important; MARGIN-RIGHT: 8px; BORDER-RIGHT: #cccccc 1px solid; =
+TEXT-DECORATION: none; PADDING-TOP: 2px
+}
+DIV#footer {
+	TEXT-ALIGN: right
+}
+.footerText {
+	FONT-STYLE: normal; FONT-FAMILY: Arial; COLOR: #999999; FONT-SIZE: 8pt; =
+FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A.footerLink:link {
+	FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; COLOR: #999999; =
+FONT-SIZE: 8pt; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A.footerLink:visited {
+	FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; COLOR: #999999; =
+FONT-SIZE: 8pt; FONT-WEIGHT: normal; TEXT-DECORATION: none
+}
+A.footerLink:hover {
+	FONT-STYLE: normal; FONT-FAMILY: Arial, sans-serif; COLOR: #bdb76b; =
+FONT-SIZE: 8pt; FONT-WEIGHT: normal; TEXT-DECORATION: underline
+}
+.dataTable {
+	FONT-SIZE: 11pt
+}
+.dataTable .caption {
+	BORDER-BOTTOM: #cccccc 1px solid; TEXT-ALIGN: center; COLOR: #8b8b00; =
+FONT-SIZE: 11pt; FONT-WEIGHT: bold
+}
+.dataTable .spacer {
+	FONT-SIZE: 11pt
+}
+.dataTable .totalTop {
+	FONT-SIZE: 11pt; BORDER-TOP: #cccccc 1px solid; FONT-WEIGHT: bold
+}
+.dataTable .total {
+	FONT-SIZE: 11pt; FONT-WEIGHT: bold
+}
+.dataTable .header {
+	BORDER-BOTTOM: #cccccc 1px solid; TEXT-ALIGN: center; FONT-SIZE: 11pt; =
+FONT-WEIGHT: bold
+}
+.dataTable .menu {
+	TEXT-ALIGN: right; COLOR: #999999; BORDER-TOP: #cccccc 1px solid
+}
+.displayTable CAPTION {
+	BORDER-BOTTOM: #cccccc 1px solid; COLOR: #8b8b00; FONT-SIZE: 11pt; =
+BORDER-TOP: #cccccc 1px solid; FONT-WEIGHT: bold
+}
+.displayTable .subCaption {
+	BORDER-BOTTOM: #cccccc 1px solid; TEXT-ALIGN: center; COLOR: #8b8b00; =
+FONT-SIZE: 11pt; FONT-WEIGHT: bold
+}
+.displayTable TH {
+	TEXT-ALIGN: right; FONT-SIZE: 11pt; FONT-WEIGHT: bold
+}
+.displayTable TD {
+	TEXT-ALIGN: left; FONT-SIZE: 11pt
+}
+.displayTable .menu {
+	TEXT-ALIGN: right; COLOR: #999999; BORDER-TOP: #cccccc 1px solid
+}
+.selectListTable {
+	BORDER-BOTTOM: #cccccc 1px solid
+}
+.selectListTable CAPTION {
+	BORDER-BOTTOM-STYLE: none; BORDER-LEFT-STYLE: none; WHITE-SPACE: =
+nowrap; BORDER-TOP-STYLE: none; COLOR: #8b8b00; BORDER-RIGHT-STYLE: =
+none; FONT-SIZE: 11pt; FONT-WEIGHT: bold
+}
+.selectListTable TH {
+	BORDER-BOTTOM: #cccccc 1px solid; TEXT-ALIGN: center; COLOR: #8b8b00; =
+FONT-SIZE: 10pt; BORDER-TOP: #cccccc 1px solid; FONT-WEIGHT: bold
+}
+.selectListTable .evenRow {
+	BACKGROUND: #e8ebf0
+}
+.selectListTable .evenRowActive {
+	BACKGROUND: #bdb76b
+}
+.selectListTable .oddRow {
+	BACKGROUND: #ffffff
+}
+.selectListTable .oddRowActive {
+	BACKGROUND: #bdb76b
+}
+#popupSubMenu {
+	POSITION: absolute; DISPLAY: inline; TOP: 85px; LEFT: 10px
+}
+#popupSubMenu A {
+	PADDING-BOTTOM: 2px; LINE-HEIGHT: 12px; PADDING-LEFT: 10px; =
+PADDING-RIGHT: 10px; COLOR: #999999 !important; FONT-SIZE: 0.98em; =
+FONT-WEIGHT: bold; MARGIN-RIGHT: 4px; TEXT-DECORATION: none; =
+PADDING-TOP: 2px
+}
+#popupSubMenu A:hover {
+	COLOR: #bdb76b !important
+}
+.errorList {
+	COLOR: #ff0000
+}
+.ClassHeader11 {
+	COLOR: #53868b; FONT-SIZE: 10pt
+}
+
+------=_NextPart_000_0000_01CE402C.E3009D10
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://sim.deh.sa.gov.au/sim/layout/stylesheets/tabs.css
+
+#content {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; =
+PADDING-BOTTOM: 15px; MARGIN: 0px; PADDING-LEFT: 15px; PADDING-RIGHT: =
+15px; BACKGROUND: #ffffff; CLEAR: both; BORDER-TOP: #cccccc 0px solid; =
+BORDER-RIGHT: #cccccc 1px solid; PADDING-TOP: 15px
+}
+#content H2 {
+	MARGIN-TOP: 30px
+}
+BODY > #content H2 {
+	MARGIN-TOP: 15px
+}
+#menuList {
+	BORDER-BOTTOM: #cccccc 1px solid; PADDING-BOTTOM: 19px; MARGIN: 0px; =
+PADDING-LEFT: 10px
+}
+#menuList A:link {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; =
+PADDING-BOTTOM: 2px; LINE-HEIGHT: 14px; PADDING-LEFT: 10px; =
+PADDING-RIGHT: 10px; BACKGROUND: #e8ebf0; FLOAT: left; COLOR: #666666; =
+FONT-SIZE: 11pt; BORDER-TOP: #cccccc 1px solid; FONT-WEIGHT: normal; =
+MARGIN-RIGHT: 8px; BORDER-RIGHT: #cccccc 1px solid; TEXT-DECORATION: =
+none; PADDING-TOP: 2px
+}
+#menuList A:visited {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; =
+PADDING-BOTTOM: 2px; LINE-HEIGHT: 14px; PADDING-LEFT: 10px; =
+PADDING-RIGHT: 10px; BACKGROUND: #e8ebf0; FLOAT: left; COLOR: #666666; =
+FONT-SIZE: 11pt; BORDER-TOP: #cccccc 1px solid; FONT-WEIGHT: normal; =
+MARGIN-RIGHT: 8px; BORDER-RIGHT: #cccccc 1px solid; TEXT-DECORATION: =
+none; PADDING-TOP: 2px
+}
+#menuList A.active:link {
+	BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND: #ffffff; COLOR: #000000
+}
+#menuList A.active:visited {
+	BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND: #ffffff; COLOR: #000000
+}
+#menuList A:hover {
+	COLOR: #bdb76b
+}
+#menuList LI.selected A {
+	BORDER-BOTTOM: #ffffff 1px solid; BACKGROUND: #ffffff; COLOR: #000000 =
+!important; FONT-WEIGHT: bold !important
+}
+#menuList LI.selected UL.submenu {
+	POSITION: absolute; DISPLAY: inline; TOP: 85px; LEFT: 10px
+}
+#menuList LI.selected UL.submenu A {
+	BORDER-BOTTOM-STYLE: none; BORDER-LEFT: #cccccc 1px solid; =
+PADDING-BOTTOM: 2px; LINE-HEIGHT: 12px; PADDING-LEFT: 10px; =
+PADDING-RIGHT: 10px; BORDER-TOP-STYLE: none; BACKGROUND: #ffffff; COLOR: =
+#999999 !important; BORDER-RIGHT-STYLE: none; FONT-SIZE: 11pt; =
+FONT-WEIGHT: bold; MARGIN-RIGHT: 4px; TEXT-DECORATION: none; =
+PADDING-TOP: 2px
+}
+#menuList LI.selected UL.submenu A.selected {
+	BACKGROUND: none transparent scroll repeat 0% 0%; COLOR: #000 =
+!important
+}
+#menuList UL A:hover {
+	COLOR: #bdb76b !important
+}
+#menuList UL.submenu A:hover {
+	COLOR: #bdb76b !important
+}
+#menuList UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: =
+0px; PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-TOP: 0px
+}
+#menuList LI {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN: 0px; PADDING-LEFT: =
+0px; PADDING-RIGHT: 0px; DISPLAY: inline; PADDING-TOP: 0px
+}
+#menuList UL.submenu {
+	WIDTH: 90%; DISPLAY: none
+}
+
+------=_NextPart_000_0000_01CE402C.E3009D10
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://sim.deh.sa.gov.au/sim/layout/stylesheets/xc2_default.css
+
+.panel {
+	BORDER-BOTTOM: #cccccc 1px solid; BORDER-LEFT: #cccccc 1px solid; =
+BACKGROUND-COLOR: #e8ebf0; BORDER-TOP: #cccccc 1px solid; BORDER-RIGHT: =
+#cccccc 1px solid
+}
+.row_head {
+	BORDER-BOTTOM: #e8ebf0 1px solid; BORDER-LEFT: #e8ebf0 1px solid; =
+BACKGROUND-COLOR: #e8ebf0; BORDER-TOP: #e8ebf0 1px solid; BORDER-RIGHT: =
+#e8ebf0 1px solid
+}
+.head {
+	TEXT-ALIGN: center; BACKGROUND-COLOR: #e8ebf0; FONT-FAMILY: verdana; =
+COLOR: #000000; FONT-SIZE: 11px; CURSOR: default; FONT-WEIGHT: bold
+}
+.arrow_prev {
+	BORDER-BOTTOM: #668099 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#cce6ff 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #99b3cc; =
+PADDING-LEFT: 1px; WIDTH: 12px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+verdana; COLOR: #ffffff; FONT-SIZE: 11px; BORDER-TOP: #cce6ff 1px solid; =
+CURSOR: pointer; MARGIN-RIGHT: 1px; BORDER-RIGHT: #668099 1px solid; =
+PADDING-TOP: 1px
+}
+.arrow_prev_over {
+	BORDER-BOTTOM: #668099 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#cce6ff 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #afc6dd; =
+PADDING-LEFT: 1px; WIDTH: 12px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+verdana; COLOR: #ffffff; FONT-SIZE: 11px; BORDER-TOP: #cce6ff 1px solid; =
+CURSOR: pointer; MARGIN-RIGHT: 1px; BORDER-RIGHT: #668099 1px solid; =
+PADDING-TOP: 1px
+}
+.arrow_prev_down {
+	BORDER-BOTTOM: #afc6dd 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#4b6077 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #7e93aa; =
+PADDING-LEFT: 2px; WIDTH: 12px; PADDING-RIGHT: 0px; FONT-FAMILY: =
+verdana; COLOR: #ffffff; FONT-SIZE: 11px; BORDER-TOP: #4b6077 1px solid; =
+CURSOR: pointer; MARGIN-RIGHT: 1px; BORDER-RIGHT: #afc6dd 1px solid; =
+PADDING-TOP: 2px
+}
+.arrow_next {
+	BORDER-BOTTOM: #668099 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#cce6ff 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #99b3cc; =
+PADDING-LEFT: 1px; WIDTH: 12px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+verdana; COLOR: #ffffff; MARGIN-LEFT: 1px; FONT-SIZE: 11px; BORDER-TOP: =
+#cce6ff 1px solid; CURSOR: pointer; BORDER-RIGHT: #668099 1px solid; =
+PADDING-TOP: 1px
+}
+.arrow_next_over {
+	BORDER-BOTTOM: #668099 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#cce6ff 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #afc6dd; =
+PADDING-LEFT: 1px; WIDTH: 12px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+verdana; COLOR: #ffffff; MARGIN-LEFT: 1px; FONT-SIZE: 11px; BORDER-TOP: =
+#cce6ff 1px solid; CURSOR: pointer; BORDER-RIGHT: #668099 1px solid; =
+PADDING-TOP: 1px
+}
+.arrow_next_down {
+	BORDER-BOTTOM: #afc6dd 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#4b6077 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #7e93aa; =
+PADDING-LEFT: 2px; WIDTH: 12px; PADDING-RIGHT: 0px; FONT-FAMILY: =
+verdana; COLOR: #ffffff; MARGIN-LEFT: 1px; FONT-SIZE: 11px; BORDER-TOP: =
+#4b6077 1px solid; CURSOR: pointer; BORDER-RIGHT: #afc6dd 1px solid; =
+PADDING-TOP: 2px
+}
+.row_week {
+	BORDER-BOTTOM: #668099 1px solid; BORDER-LEFT: #99b3cc 1px solid; =
+BORDER-TOP: #99b3cc 1px solid; BORDER-RIGHT: #99b3cc 1px solid
+}
+.weekday {
+	BORDER-BOTTOM: #99b3cc 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#99b3cc 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #99b3cc; =
+PADDING-LEFT: 1px; WIDTH: 23px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+verdana; COLOR: #ffffff; FONT-SIZE: 11px; BORDER-TOP: #99b3cc 1px solid; =
+CURSOR: default; BORDER-RIGHT: #99b3cc 1px solid; PADDING-TOP: 1px
+}
+.row_day {
+	PADDING-BOTTOM: 1px; PADDING-LEFT: 1px; PADDING-RIGHT: 1px; =
+PADDING-TOP: 1px
+}
+.day {
+	BORDER-BOTTOM: #e8ebf0 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#e8ebf0 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #e8ebf0; =
+PADDING-LEFT: 1px; WIDTH: 23px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+verdana; COLOR: #000000; FONT-SIZE: 11px; BORDER-TOP: #e8ebf0 1px solid; =
+CURSOR: pointer; BORDER-RIGHT: #e8ebf0 1px solid; PADDING-TOP: 1px
+}
+.day_over {
+	BORDER-BOTTOM: #c0c0c0 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#ffffff 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #e8ebf0; =
+PADDING-LEFT: 1px; WIDTH: 23px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+verdana; COLOR: #000000; FONT-SIZE: 11px; BORDER-TOP: #ffffff 1px solid; =
+CURSOR: pointer; BORDER-RIGHT: #c0c0c0 1px solid; PADDING-TOP: 1px
+}
+.day_down {
+	BORDER-BOTTOM: #ffffff 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#9c9c9c 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #cfcfcf; =
+PADDING-LEFT: 1px; WIDTH: 23px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+verdana; COLOR: #000000; FONT-SIZE: 11px; BORDER-TOP: #9c9c9c 1px solid; =
+CURSOR: pointer; BORDER-RIGHT: #ffffff 1px solid; PADDING-TOP: 1px
+}
+.day_empty {
+	BORDER-BOTTOM: #e8ebf0 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#e8ebf0 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #e8ebf0; =
+PADDING-LEFT: 1px; WIDTH: 23px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+verdana; COLOR: #e8ebf0; FONT-SIZE: 11px; BORDER-TOP: #e8ebf0 1px solid; =
+CURSOR: default; BORDER-RIGHT: #e8ebf0 1px solid; PADDING-TOP: 1px
+}
+.day_disabled {
+	BORDER-BOTTOM: #e8ebf0 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#e8ebf0 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #e8ebf0; =
+PADDING-LEFT: 1px; WIDTH: 23px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+verdana; COLOR: #999999; FONT-SIZE: 11px; BORDER-TOP: #e8ebf0 1px solid; =
+CURSOR: default; BORDER-RIGHT: #e8ebf0 1px solid; TEXT-DECORATION: =
+line-through; PADDING-TOP: 1px
+}
+.day_current {
+	BORDER-BOTTOM: #668099 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#cce6ff 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #99b3cc; =
+PADDING-LEFT: 1px; WIDTH: 23px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+verdana; COLOR: #ffffff; FONT-SIZE: 11px; BORDER-TOP: #cce6ff 1px solid; =
+CURSOR: pointer; BORDER-RIGHT: #668099 1px solid; PADDING-TOP: 1px
+}
+.day_special {
+	BORDER-BOTTOM: #996666 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#ffcccc 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #cc9999; =
+PADDING-LEFT: 1px; WIDTH: 23px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+verdana; COLOR: #ffffff; FONT-SIZE: 11px; BORDER-TOP: #ffcccc 1px solid; =
+CURSOR: pointer; BORDER-RIGHT: #996666 1px solid; PADDING-TOP: 1px
+}
+.day_other {
+	BORDER-BOTTOM: #e8ebf0 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#e8ebf0 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #e8ebf0; =
+PADDING-LEFT: 1px; WIDTH: 23px; PADDING-RIGHT: 1px; FONT-FAMILY: =
+verdana; COLOR: #999999; FONT-SIZE: 9px; BORDER-TOP: #e8ebf0 1px solid; =
+CURSOR: pointer; BORDER-RIGHT: #e8ebf0 1px solid; PADDING-TOP: 1px
+}
+.row_foot {
+	MARGIN: 1px
+}
+.foot {
+	BORDER-BOTTOM: #668099 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#cce6ff 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #99b3cc; =
+MARGIN: 0px 1px; PADDING-LEFT: 1px; WIDTH: 50px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: verdana; COLOR: #ffffff; FONT-SIZE: 11px; BORDER-TOP: =
+#cce6ff 1px solid; CURSOR: pointer; BORDER-RIGHT: #668099 1px solid; =
+PADDING-TOP: 1px
+}
+.foot_over {
+	BORDER-BOTTOM: #668099 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#cce6ff 1px solid; PADDING-BOTTOM: 1px; BACKGROUND-COLOR: #afc6dd; =
+MARGIN: 0px 1px; PADDING-LEFT: 1px; WIDTH: 50px; PADDING-RIGHT: 1px; =
+FONT-FAMILY: verdana; COLOR: #ffffff; FONT-SIZE: 11px; BORDER-TOP: =
+#cce6ff 1px solid; CURSOR: pointer; BORDER-RIGHT: #668099 1px solid; =
+PADDING-TOP: 1px
+}
+.foot_down {
+	BORDER-BOTTOM: #afc6dd 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#4b6077 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #7e93aa; =
+MARGIN: 0px 1px; PADDING-LEFT: 2px; WIDTH: 50px; PADDING-RIGHT: 0px; =
+FONT-FAMILY: verdana; COLOR: #ffffff; FONT-SIZE: 11px; BORDER-TOP: =
+#4b6077 1px solid; CURSOR: pointer; BORDER-RIGHT: #afc6dd 1px solid; =
+PADDING-TOP: 2px
+}
+.list {
+	BACKGROUND-COLOR: #e8ebf0; FONT-FAMILY: verdana; COLOR: #000000; =
+FONT-SIZE: 12px
+}
+.info {
+	TEXT-ALIGN: left; PADDING-BOTTOM: 2px; MARGIN: 2px 6px; PADDING-LEFT: =
+2px; PADDING-RIGHT: 2px; COLOR: #000000; FONT-SIZE: 10px; PADDING-TOP: =
+2px
+}
+.tip_title {
+	BORDER-BOTTOM: #ffcccc 1px solid; TEXT-ALIGN: center; BORDER-LEFT: =
+#996666 1px solid; PADDING-BOTTOM: 0px; BACKGROUND-COLOR: #cc9999; =
+PADDING-LEFT: 3px; PADDING-RIGHT: 3px; FONT-FAMILY: verdana; COLOR: =
+#ffffff; FONT-SIZE: 11px; BORDER-TOP: #996666 1px solid; BORDER-RIGHT: =
+#ffcccc 1px solid; PADDING-TOP: 0px
+}
+.tip_box {
+	BORDER-BOTTOM: #668099 1px solid; TEXT-ALIGN: left; FILTER: =
+alpha(opacity:90)
+    progid:DXImageTransform.Microsoft.RandomDissolve(duration=3D0.5); =
+BORDER-LEFT: #cce6ff 1px solid; PADDING-BOTTOM: 3px; BACKGROUND-COLOR: =
+#cfcfcf; PADDING-LEFT: 3px; WIDTH: 200px; PADDING-RIGHT: 3px; =
+FONT-FAMILY: verdana; HEIGHT: 100px; COLOR: #000000; FONT-SIZE: 11px; =
+OVERFLOW: auto; BORDER-TOP: #cce6ff 1px solid; CURSOR: default; =
+BORDER-RIGHT: #668099 1px solid; PADDING-TOP: 3px; -moz-opacity: 0.9
+}
+
+------=_NextPart_000_0000_01CE402C.E3009D10
+Content-Type: text/css;
+	charset="iso-8859-1"
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://sim.deh.sa.gov.au/sim/layout/stylesheets/style.css
+
+#wrap {
+	MARGIN: 0px; WIDTH: 900px; FLOAT: left
+}
+#background {
+	BACKGROUND-COLOR: #78915b; WIDTH: 100%; BACKGROUND-REPEAT: repeat-y
+}
+#background_shaddow {
+	MARGIN: 0px; WIDTH: 900px; BACKGROUND: url(denr_background_final.jpg) =
+repeat-y; FLOAT: left
+}
+#css_sagovau_footer_container {
+	WIDTH: 900px; FLOAT: left; HEIGHT: 80px
+}
+#css_sagovau_address {
+	PADDING-BOTTOM: 0px; MARGIN: 0px; PADDING-LEFT: 0px; WIDTH: 155px; =
+PADDING-RIGHT: 0px; FONT-FAMILY: arial, helvetica, sans-serif; FLOAT: =
+left; HEIGHT: 80px; OVERFLOW: hidden; PADDING-TOP: 0px
+}
+.css_sagovau_address A {
+	BORDER-RIGHT-WIDTH: 0px; FONT-STYLE: normal; WIDTH: 155px; DISPLAY: =
+block; FLOAT: left; BORDER-TOP-WIDTH: 0px; BORDER-BOTTOM-WIDTH: 0px; =
+HEIGHT: 80px; COLOR: #9cb87f; FONT-SIZE: 13px; OVERFLOW: hidden; =
+BORDER-LEFT-WIDTH: 0px; TEXT-DECORATION: none
+}
+.css_sagovau_address A:hover {
+	COLOR: #ffffff
+}
+.css_sagovau_address IMG {
+	BORDER-RIGHT-WIDTH: 0px; WIDTH: 155px; BORDER-TOP-WIDTH: 0px; =
+BORDER-BOTTOM-WIDTH: 0px; HEIGHT: 80px; BORDER-LEFT-WIDTH: 0px
+}
+* HTML A:hover {
+	VISIBILITY: visible
+}
+.css_sagovau_address A:hover IMG {
+	VISIBILITY: hidden
+}
+.css_sagovau_address SPAN {
+	POSITION: absolute; TEXT-ALIGN: center; WIDTH: 107px; CURSOR: pointer; =
+TOP: 10px; LEFT: 0px
+}
+#css_sagovau_footer {
+	WIDTH: 745px; BACKGROUND: =
+url(http://www.environment.sa.gov.au/files/1/62/denr_footer_sagovau_final=
+.gif) no-repeat; HEIGHT: 80px; MARGIN-LEFT: 155px
+}
+.css_sagovau {
+	MARGIN-TOP: 0px
+}
+.css_sagovau UL {
+	PADDING-BOTTOM: 0px; LIST-STYLE-TYPE: none; MARGIN-TOP: 0px; =
+PADDING-LEFT: 0px; WIDTH: 600px; PADDING-RIGHT: 0px; FLOAT: left; COLOR: =
+#9cb87f; MARGIN-LEFT: 20px; PADDING-TOP: 10px
+}
+.css_sagovau A {
+	PADDING-BOTTOM: 0px; FONT-STYLE: normal; MARGIN-TOP: 10px; =
+PADDING-LEFT: 0px; WIDTH: 6em; PADDING-RIGHT: 0px; FONT-FAMILY: arial, =
+helvetica, sans-serif; COLOR: #9cb87f; FONT-SIZE: 11px; TEXT-DECORATION: =
+none; PADDING-TOP: 0px
+}
+.css_sagovau LI {
+	DISPLAY: inline; COLOR: #9cb87f
+}
+
+------=_NextPart_000_0000_01CE402C.E3009D10
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://sim.deh.sa.gov.au/sim/layout/scripts/tabs.js
+
+if (!document.getElementById) {
+    document.getElementById =3D function() { return null; }
+}
+
+function initMenu() {
+    var menu =3D document.getElementById("menuList");
+    var items =3D menu.getElementsByTagName("li");
+    for (var i=3D0; i < items.length; i++) {
+        items[i].firstChild.myIndex =3D i;
+        // retain any existing onclick handlers from menu-config.xml
+        if (items[i].firstChild.onclick) {
+            items[i].firstChild.onclick=3Dfunction() {=20
+                =
+eval(items[this.myIndex].firstChild.getAttribute("onclick"));
+                setCookie("menuSelected", this.myIndex);=20
+                };
+        } else {
+            items[i].firstChild.onclick=3Dfunction() {=20
+                setCookie("menuSelected", this.myIndex);=20
+            };
+        }
+    }
+    activateMenu();
+}
+
+function activateMenu() {=20
+    var menu =3D document.getElementById("menuList");
+    var items =3D menu.getElementsByTagName("li");
+    var activeMenu;
+    var found =3D 0;
+    for (var i=3D0; i < items.length; i++) {
+        var url =3D items[i].firstChild.getAttribute("href");
+        var current =3D document.location.toString();
+        if (current.indexOf(url) !=3D -1) {
+            found++;
+            setCookie("menuSelected", i);=20
+        }
+    }
+    =20
+    // more than one found, use cookies
+    if (found > 1) { =20
+        var menuSelected =3D getCookie("menuSelected");=20
+        if (items[menuSelected].parentNode.className =3D=3D "submenu") {
+            items[menuSelected].firstChild.className=3D"selected";
+            =
+items[menuSelected].parentNode.parentNode.className=3D"selected";
+        } else {           =20
+            items[menuSelected].className+=3D"selected";
+        }
+    } else {
+        // only one found, match on URL
+        for (var i=3D0; i < items.length; i++) {
+            var url =3D items[i].firstChild.getAttribute("href");
+            var current =3D document.location.toString();
+            if (current.indexOf(url) !=3D -1) {
+                if (items[i].parentNode.className =3D=3D "submenu") {
+                    items[i].firstChild.className=3D"selected";
+                    =
+items[i].parentNode.parentNode.className=3D"selected";
+                } else {           =20
+                    items[i].className+=3D"selected";
+                }
+            }
+        }
+    }
+}
+
+// Select the menu that matches the URL when the page loads
+//window.onload=3DinitMenu;
+
+// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+//                          Cookie functions=20
+// =
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=
+=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D=3D
+/* This function is used to set cookies */
+function setCookie(name,value,expires,path,domain,secure) {
+  document.cookie =3D name + "=3D" + escape (value) +
+    ((expires) ? "; expires=3D" + expires.toGMTString() : "") +
+    ((path) ? "; path=3D" + path : "") +
+    ((domain) ? "; domain=3D" + domain : "") + ((secure) ? "; secure" : =
+"");
+}
+
+/* This function is used to get cookies */
+function getCookie(name) {
+	var prefix =3D name + "=3D"=20
+	var start =3D document.cookie.indexOf(prefix)=20
+
+	if (start=3D=3D-1) {
+		return null;
+	}
+=09
+	var end =3D document.cookie.indexOf(";", start+prefix.length)=20
+	if (end=3D=3D-1) {
+		end=3Ddocument.cookie.length;
+	}
+
+	var value=3Ddocument.cookie.substring(start+prefix.length, end)=20
+	return unescape(value);
+}
+
+/* This function is used to delete cookies */
+function deleteCookie(name,path,domain) {
+  if (getCookie(name)) {
+    document.cookie =3D name + "=3D" +
+      ((path) ? "; path=3D" + path : "") +
+      ((domain) ? "; domain=3D" + domain : "") +
+      "; expires=3DThu, 01-Jan-70 00:00:01 GMT";
+  }
+}
+------=_NextPart_000_0000_01CE402C.E3009D10
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://sim.deh.sa.gov.au/sim/layout/scripts/global.js
+
+// opens a popup window for the url
+function popup(url) {
+	=
+window.open(url,'','scrollbars=3Dyes,menubar=3Dno,height=3D600,width=3D80=
+0,resizable=3Dno,toolbar=3Dno,location=3Dno,status=3Dno');
+}
+
+// populates named UNIQUE id (or name) on the opener window with the =
+populateValue
+function populateOpenerField(idToPopulate, populateValue) {
+=09
+	if (idToPopulate !=3D "") {
+		//alert("Function populateOpenerField - populating " + idToPopulate + =
+" with " + populateValue + "...");
+		window.opener.document.getElementsByName(idToPopulate)[0].value =3D =
+populateValue;
+		//this version does not work in FireFox=20
+		//because the elements that we trying to populate does not have 'id'
+		//html:text tag is not alowed to have this attribute
+		//window.opener.document.getElementById(idToPopulate).value =3D =
+populateValue;
+	}
+}
+
+// populates named UNIQUE id (or name) on the opener window with the =
+populateValue
+function populateOpenerField2(idToPopulate, populateValue) {
+=09
+	if (idToPopulate !=3D "") {
+		//alert("Function populateOpenerField2 - populating " + idToPopulate + =
+" with " + populateValue + "...");
+		=
+if((window.opener.document.getElementsByName(idToPopulate)[0].value)!=3D"=
+"){
+			window.opener.document.getElementsByName(idToPopulate)[0].value =3D =
+window.opener.document.getElementsByName(idToPopulate)[0].value +','+ =
+populateValue;
+			}
+		else{
+			window.opener.document.getElementsByName(idToPopulate)[0].value =3D =
+populateValue;
+			}
+	}
+}
+
+// closes the window
+// used as we may wish to do more in future...
+function closePopup() {
+	window.close();
+}
+
+// enables all the elements on the form
+// this is called for forms with disabled text for example so they =
+submit
+function enableAll(formToEnable) {
+	for(var i =3D 0; i < formToEnable.elements.length; i++) {
+		formToEnable.elements[i].disabled=3Dfalse;
+	}
+}
+
+// checks that the user does actually want to delete before setting the =
+form action and submitting
+function confirmAndDelete(form, action) {
+	if (confirm("Do wish to delete?")) {
+		form.action =3D action;
+		form.submit();
+	}
+}
+
+// enables the form and submits
+function save(form) {
+	enableAll(form);
+	form.submit();
+}
+
+// enables the form and submits
+function search(form) {
+	enableAll(form);
+	form.submit();
+}
+
+
+
+------=_NextPart_000_0000_01CE402C.E3009D10
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://sim.deh.sa.gov.au/sim/layout/scripts/xc2_default.js
+
+// date format
+// -----------
+xcDateFormat=3D"dd/mm/yyyy";
+
+
+// css conf
+// --------
+xcCSSPanel=3D"panel";
+
+xcCSSHeadBlock=3D"row_head";
+xcCSSHead=3D"head";
+
+xcCSSArrowMonthPrev=3D["arrow_prev", "arrow_prev_over", =
+"arrow_prev_down"];
+xcCSSArrowMonthNext=3D["arrow_next", "arrow_next_over", =
+"arrow_next_down"];
+
+xcCSSArrowYearPrev=3D["arrow_prev", "arrow_prev_over", =
+"arrow_prev_down"];
+xcCSSArrowYearNext=3D["arrow_next", "arrow_next_over", =
+"arrow_next_down"];
+
+xcCSSWeekdayBlock=3D"row_week";
+xcCSSWeekday=3D"weekday";
+
+xcCSSDayBlock=3D"row_day";
+xcCSSDay=3D["day", "day_over", "day_down", "day_disabled"];
+xcCSSDayCurrent=3D["day_current", "", ""];
+xcCSSDaySpecial=3D["day_special", "day_disabled"];
+xcCSSDayOther=3D["day_other", "day_disabled"];
+xcCSSDayEmpty=3D"day_empty";
+
+xcCSSFootBlock=3D"row_foot";
+xcCSSFootToday=3D["foot", "foot_over", "foot_down"];
+xcCSSFootClear=3D["foot", "foot_over", "foot_down"];
+xcCSSFootBack=3D["foot", "foot_over", "foot_down"];
+xcCSSFootClose=3D["foot", "foot_over", "foot_down"];
+xcCSSFootReset=3D["foot", "foot_over", "foot_down"];
+xcCSSFootOther=3D[];
+
+
+// layout conf
+// -----------
+xcMonthNames=3D["January", "February", "March", "April", "May", "June", =
+"July", "August", "September", "October", "November", "December"];
+xcMonthShortNames=3D["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", =
+"Aug", "Sep", "Oct", "Nov", "Dec"];
+xcMonthPrefix=3D"";
+xcMonthSuffix=3D"";
+
+xcYearDigits=3D["0", "1", "2", "3", "4", "5", "6", "7", "8", "9"];
+xcYearPrefix=3D"";
+xcYearSuffix=3D"";
+
+xcHeadSeparator=3D" "; // separator string between year and month
+xcHeadTagOrder=3D1; // 1: month/year, 0: year/month
+xcHeadTagAdjustment=3D1; // 1: 100% width, 0: actual width
+
+xcArrowMonth=3D["&#139;", "&#155;"];
+xcArrowYear=3D["&#171;", "&#187;"];
+xcArrowSwitch=3D[1, 1]; // [year, month] 1:on, 0:off
+xcArrowPosition=3D0; // 0:in head block, 1:in foot block
+
+// names for days
+xcWeekdayNames=3D["Sunday", "Monday", "Tuesday", "Wednesday", =
+"Thursday", "Friday", "Saturday", "Sunday"];
+xcWeekdayShortNames=3D["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat", =
+"Sun"];
+xcWeekdayDisplay=3D["S", "M", "T", "W", "T", "F", "S", "S"];
+
+// foot links
+xcFootTags=3D["Today", "Clear", "Back", "Close", "Reset", "_Today_", =
+"_Back_", "_Reset_"];
+xcFootTagSwitch=3D[1, 0, 0, 2, 0, 0, 0, 0]; // [today, clear, back, =
+close, reset, _today_, _back_, _reset_] non-zero:display order, 0:off
+xcFootTagAdjustment=3D0; // 1: % width, 0: actual width
+
+// customized foot links
+xcFootButtons=3D[];
+xcFootButtonSwitch=3D[];
+xcFootButtonLinks=3D[];
+
+// easy workaround for grid style
+xcGridWidth=3D0; // used as cellspacing
+
+// others
+xcBaseZIndex=3D100; // z-index for calendar layers
+xcMultiCalendar=3D1; // 1:multi-calendar, 0:single-calendar
+xcShowCurrentDate=3D1; // 1:highlight current date/today, 0:no highlight
+xcWeekStart=3D0; // 0:Sunday, 1:Monday
+xcAutoHide=3D0; // 0: no auto hide, non-zero:auto hide interval in ms
+xcStickyMode=3D0; // 0:non-sticky, 1:sticky
+xcShowPrevNextMonth=3D1; // 0:not show, 1: show
+
+// day contents
+xcDayContents=3D["&nbsp;", "1", "2", "3", "4", "5", "6", "7", "8", "9", =
+"10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", =
+"22", "23", "24", "25", "26", "27", "28", "29", "30", "31"];
+xcDayContentsDisabled=3DxcDayContents;
+xcDayContentsCurrent=3DxcDayContents;
+
+
+// mod conf
+// --------
+xcModPath=3D"../script/";
+xcMods=3D[{"order": 0,  "mod": "Month/Year List",   "script": =
+"mod_list.js"},
+        {"order": 0,  "mod": "Date Range",        "script": =
+"mod_date.js"},
+        {"order": 0,  "mod": "Special Days",      "script": =
+"mod_days.js"},
+        {"order": 0,  "mod": "Date Info",         "script": =
+"mod_info.js"},
+        {"order": 0,  "mod": "Journal",           "script": =
+"mod_journal.js"},
+        {"order": 0,  "mod": "Date Link",         "script": =
+"mod_link.js"},
+        {"order": 0,  "mod": "Long Date Format",  "script": =
+"mod_long.js"},
+        {"order": 0,  "mod": "Tiles",             "script": =
+"mod_tiles.js"},
+        {"order": 0,  "mod": "Date Tips",         "script": =
+"mod_tips.js"}];
+
+// Month/Year List Mod
+xcCSSMonthYearList=3D"list";
+
+xcMonthListFormat=3D"Month"; // Month, MONTH, Mon, Mon, mm
+xcYearListRange=3D5;
+xcYearListPrevRange=3D"&#171;&nbsp;";
+xcYearListNextRange=3D"&nbsp;&#187;"
+
+// Date Link Mod & Journal Mod
+xcLinkBasePath=3D"";
+xcLinkTargetWindow=3D"_blank";
+xcLinkTargetWindowPara=3D"location=3D1,menubar=3D1,resizable=3D1,scrollba=
+rs=3D1,status=3D1,titlebar=3D1,toolbar=3D1";
+
+// Journal Mod
+xcLinkPrefix=3D"";
+xcLinkSuffix=3D".html";
+xcLinkDateFormat=3D"yyyymmdd";
+
+// Date Tips Mod
+xcDateTipTiming=3D1000;
+xcDateTipBoxTitleSwitch=3D1; // 1: show title, 0:don't show
+xcDateTipBoxPosition=3D6; // 0:date top, 3:date right, 6:date bottom, =
+9:date left
+xcDateTipBoxAlign=3D1; // 0:left, 1:center, 2:right, for position of 0 =
+and 6
+xcDateTipBoxValign=3D0; // 0:top, 1:middle, 2:bottom, for position of 3 =
+and 9
+xcDateTipBoxOffsetX=3D0;
+xcDateTipBoxOffsetY=3D6;
+xcCSSDateTipBoxTitle=3D"tip_title";
+xcCSSDateTipBox=3D"tip_box";
+
+// Popup-Window Version
+xcWindowWidth=3D215;
+xcWindowHeight=3D195;
+xcWindowTemplate=3D"../script/xc2_template.html"
+
+------=_NextPart_000_0000_01CE402C.E3009D10
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: quoted-printable
+Content-Location: http://sim.deh.sa.gov.au/sim/layout/scripts/oseidon.js
+
+// quote update uses this
+function clearMaterials(doc) {
+	// if there has been a lookup, then description  / cost cannot be =
+submitted
+	if (doc.quoteForm.materialNumber1.value !=3D "") {
+		doc.quoteForm.materialDescription1.value =3D "";
+		doc.quoteForm.materialCost1.value =3D "";
+	} =09
+	if (doc.quoteForm.materialNumber2.value !=3D "") {
+		doc.quoteForm.materialDescription2.value =3D "";
+		doc.quoteForm.materialCost2.value =3D "";
+	} =09
+	if (doc.quoteForm.materialNumber3.value !=3D "") {
+		doc.quoteForm.materialDescription3.value =3D "";
+		doc.quoteForm.materialCost3.value =3D "";
+	} =09
+	if (doc.quoteForm.materialNumber4.value !=3D "") {
+		doc.quoteForm.materialDescription4.value =3D "";
+		doc.quoteForm.materialCost4.value =3D "";
+	} =09
+}=20
+
+// clears one row of the materials
+// 1 based numbering
+function clearMaterialRow(doc, rowNum) {
+	doc.quoteForm.elements["materialNumber" + rowNum].value =3D "";
+	doc.quoteForm.elements["materialDescription" + rowNum].value =3D "";
+	doc.quoteForm.elements["materialNumUnits" + rowNum].value =3D "";=09
+	doc.quoteForm.elements["materialCost" + rowNum].value =3D "";
+}
+
+// clears one row of the staff costs
+function clearStaffRateRow(doc, rowNum) {
+	doc.quoteForm.elements["staffRateNumber" + rowNum].value =3D "";
+	doc.quoteForm.elements["staffRateCode" + rowNum].value =3D "";
+	doc.quoteForm.elements["staffCostDescription" + rowNum].value =3D "";=09
+	doc.quoteForm.elements["staffHour" + rowNum].value =3D "";
+	doc.quoteForm.elements["staffCost" + rowNum].value =3D "";
+=09
+	// span's can't be references like that
+	doc.getElementsByName("staffCostDescription" + rowNum + =
+"_display")[0].innerHTML =3D "";
+	doc.getElementsByName("staffCost" + rowNum + "_display")[0].innerHTML =
+=3D "";=09
+}
+
+// quote update uses this
+function refreshStaffRateDescriptions(doc) {
+	if (doc.quoteForm !=3D null) {
+		var index =3D doc.quoteForm.costType.selectedIndex=09
+		var text =3D doc.quoteForm.costType[index].text;
+	=09
+		// replace '(' with '-' and ')' with ''
+		// and turn to upper case
+		var regX =3D /\(/gi ;
+		text =3D text.replace(regX, "- ");=20
+		regX =3D /\)/gi ;
+		text =3D text.replace(regX, "");=20
+		text =3D text.toUpperCase();
+	=09
+		if (doc.quoteForm.staffRateCode1.value !=3D "") {
+			var displayText =3D doc.quoteForm.staffRateCode1.value.toUpperCase() =
++ " (" + text + ")";
+			doc.quoteForm.staffCostDescription1.value =3D displayText;
+			doc.getElementById("staffCostDescription1_display").innerHTML =3D =
+displayText;
+		}
+=09
+		if (doc.quoteForm.staffRateCode2.value !=3D "") {
+			displayText =3D doc.quoteForm.staffRateCode2.value.toUpperCase() + " =
+(" + text + ")";
+			doc.quoteForm.staffCostDescription2.value =3D displayText;
+			doc.getElementById("staffCostDescription2_display").innerHTML =3D =
+displayText;
+		}
+	=09
+		if (doc.quoteForm.staffRateCode3.value !=3D "") {
+			displayText =3D doc.quoteForm.staffRateCode3.value.toUpperCase() + " =
+(" + text + ")";
+			doc.quoteForm.staffCostDescription3.value =3D displayText;
+			doc.getElementById("staffCostDescription3_display").innerHTML =3D =
+displayText;
+		}
+=09
+		if (doc.quoteForm.staffRateCode4.value !=3D "") {
+			displayText =3D doc.quoteForm.staffRateCode4.value.toUpperCase() + " =
+(" + text + ")";
+			doc.quoteForm.staffCostDescription4.value =3D displayText;
+			doc.getElementById("staffCostDescription4_display").innerHTML =3D =
+displayText;
+		}
+	}
+}=20
+
+
+------=_NextPart_000_0000_01CE402C.E3009D10--
