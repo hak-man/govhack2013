@@ -31,13 +31,10 @@ public class Suburb {
 		int incremenet = 5;
 		
 		int numberOfAgeCats = 18;
-		int ageCatCounter = 0;
 		
 		int fieldCounter = 3;
 		for (int i = 0; i < numberOfAgeCats; i++)
 		{
-			bottomCounter += (ageCatCounter * incremenet);
-			topCounter += (ageCatCounter * incremenet);
 			Range range = new Range(bottomCounter, topCounter);
 			List<Projection> projs = new ArrayList<Projection>();
 			projections.put(range, projs);
@@ -52,6 +49,8 @@ public class Suburb {
 				projs.add(proj);
 			}
 			fieldCounter++;
+			bottomCounter += incremenet;
+			topCounter += incremenet;
 		}
 	}
 	
