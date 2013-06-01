@@ -1,0 +1,9 @@
+http://www.yournavigation.org/api/dev/route.php
+?flat=-34.930145515175
+&flon=138.59992980426
+&tlat=-34.968979648906
+&tlon=138.56079101032
+&v=motorcar
+&fast=1
+&layer=mapnik
+&instructions=1
