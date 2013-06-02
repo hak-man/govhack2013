@@ -44,9 +44,9 @@ public class BigMain {
 					int total = projection.getTotal();
 					double percentage = projection.getPercentage();
 					// Generate Projection Table
-					sqlOutput.add("INSERT INTO Population VALUES("
-							+ lga_id + ", "
-							+ name + ", "
+					sqlOutput.add("INSERT INTO population VALUES("
+							+ lga_id + ", '"
+							+ name + "', "
 							+ lowerBound + ", "
 							+ upperBound + ", "
 							+ year + ", "
