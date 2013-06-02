@@ -28,14 +28,13 @@
 
             #main-nav-logo {
                 background-image: url('img/evolve-sa-logo-main-nav.png');
-                width: 171px;
+                width: 192px;
                 height: 40px;
             }
             
-            .navbar a.brand {
+            a.brand {
                 margin: 0;
                 padding:0;
-                
             }
 
             #map-container {
@@ -131,50 +130,53 @@
                         <ul class="nav">
                             <li class="active"><a href="#">Home</a></li>
                             <li><a href="/about.html">About</a></li>
-                            <!-- 
-                            <li><a href="/contact.html">Contact</a></li>
-                            <li><a href="#contact">Contact</a></li>
-                            <li class="dropdown">
-                                <a href="#" class="dropdown-toggle" data-toggle="dropdown">Dropdown <b class="caret"></b></a>
-                                <ul class="dropdown-menu">
-                                    <li><a href="#">Action</a></li>
-                                    <li><a href="#">Another action</a></li>
-                                    <li><a href="#">Something else here</a></li>
-                                    <li class="divider"></li>
-                                    <li class="nav-header">Nav header</li>
-                                    <li><a href="#">Separated link</a></li>
-                                    <li><a href="#">One more separated link</a></li>
-                                </ul>
-                            </li>
-                            -->
                         </ul>
-                        <!--
-                        <form class="navbar-form pull-right">
-                            <input class="span2" type="text" placeholder="Email">
-                            <input class="span2" type="password" placeholder="Password">
-                            <button type="submit" class="btn">Sign in</button>
-                        </form>
-                        -->
-                    </div><!--/.nav-collapse -->
+                    </div>
                 </div>
             </div>
         </div>
 
         <div class="container">
-            <!-- Main hero unit for a primary marketing message or call to action -->
-            <!--<div class="hero-unit">
-                <h1>EvolveSA</h1>
-                <p>We are helping South Australia Evolve.</p>
-                <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
-            </div> -->
             <div class="row">
                 <div class="row12">
-                    <div id="map-container" class="contents">
-                        <div id="map-inner"></div>
-                    </div>
+                    <p><a href="http://www.evolvesa.org/"><img alt="EvolveSA" src="https://dl.dropboxusercontent.com/s/7q1ayb0dd3uxf4s/evolve-sa-logo.png?token_hash=AAE7dJxZX_94jLhU9IXZWrH-gsesjOelCVC-OEzRRr0h9w&amp;dl=1"></a></p>
+
+                    <p>This data visualisation tool can be used to make decisions on where infrastructure and services are required for the changing population over time. The current data we have is based on SA data until 2025 but this can be expanded Australia wide once we acquire further data.</p>
+
+                    <p>Currently the data we have is on hospitals, however we can also add in more services (ie. Schools, open spaces, child care centres, roads, fire services etc).&nbsp; The heat map displays the current data on the location of hospitals and the demographics and density of population living in local government areas.</p>
+
+                    <p><strong>Target Market</strong></p>
+
+                    <p>This will include (but is not limited to):</p>
+
+                    <ul>
+                            <li>Corporate Bodies (Government, Organisations and Decision Makers) to assist them with their planning of infrastructure and service requirements in the future.</li>
+                            <li>Small Business/Investors – may use this information when planning to build or start a new business in the future</li>
+                    </ul>
+
+                    <p><strong>What is a Heatmap</strong></p>
+
+                    <p>A heatmap is a visualization used for visualizing three dimensional data. Two dimensions represent cartesian coordinates (x and y values) and the third dimension is used for showing the intensity of a datapoint in relative comparison to the absolute maximum of the dataset. The intensity is shown as a color, usually red (hot) is used for the maxima and blue (cold) for minima.</p>
+
+                    <p>Our heat map demonstrates the population demographics and density where red is bad and green is good.</p>
+
+                    <p><strong>Risk Management</strong></p>
+
+                    <p>Some of the factors to consider are:</p>
+
+                    <p>Incorrect data from data.sa.gov.au<br>
+                    Outside factors such as large businesses closing down (ie. Holden)<br>
+                    Government opening up new land (ie. Virginia)</p>
+
+                    <p><strong>References</strong></p>
+
+                    <p>Gazetteer - <a href="http://data.sa.gov.au/dataset/gazetteer">http://data.sa.gov.au/dataset/gazetteer</a><br>
+                    Local Government Areas - <a href="http://data.sa.gov.au/dataset/local-government-areas">http://data.sa.gov.au/dataset/local-government-areas</a><br>
+                    Suburbs - <a href="http://data.sa.gov.au/dataset/suburb-boundaries">http://data.sa.gov.au/dataset/suburb-boundaries</a><br>
+                    Social Health Atlas - <a href="http://data.sa.gov.au/dataset/social-health-atlas">http://data.sa.gov.au/dataset/social-health-atlas</a></p>
                 </div>
             </div>
-        </div><!-- /container -->
+        </div>
         <div id="push"></div>
     </div><!-- /wrap -->
     <footer>
@@ -182,37 +184,12 @@
             <p class="muted credit">Released by EvolveSA as Creative Commons, Share and Share Alike : 2013</p>
         </div>
     </footer>
-    <!--
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-        <script type="text/javascript" src="hakman.js"></script>
-    -->
+
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
-
-
-
-    <!-- ExtJS  -->
-    <script src="lib/ext-3.4.1/adapter/ext/ext-base.js" type="text/javascript"></script>
-    <script src="lib/ext-3.4.1/ext-all.js"  type="text/javascript"></script>
-
-    <!-- ExtJS spacer image -->
-    <script>
-        Ext.BLANK_IMAGE_URL = "lib/ext-3.4.1/resources/images/default/s.gif";
-    </script>
-
-
-    <!-- OpenLayers --> 
-    <script src="lib/ol-2.12/OpenLayers.js" type="text/javascript"></script>
-
-    <!-- GeoExt -->
-
-    <script src="lib/GeoExt-1.1/lib/GeoExt.js" type="text/javascript"></script>
-    <!-- jQuery
-    -->
-    <script src="lib/jquery/jquery-1.10.1.min.js" type="text/javascript"></script>
-
     <script src="map.js"></script>
 
     <script>
