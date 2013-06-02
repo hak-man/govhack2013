@@ -6,7 +6,7 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>EvolveSA - GovHack 2013</title>
+        <title>EvolveSA - GovHack 2013 | Home</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
@@ -95,12 +95,15 @@
                     <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
                 </div> -->
                 <div class="row">
-                    <div class="span10">
+                    <div class="span9">
+                        <h2>Data Visualisation Tool</h2>
+                        <p>This data visualisation tool can be used to make decisions on where infrastructure and services are required for the changing population over time.</p>
                         <div id="map-container" class="contents">
                             <div id="map-inner"></div>
                         </div>
                     </div>
-                    <div class="span2">
+                    <div class="span3">
+                        <div class="map-buttons-padding"></div>
                         <fieldset id="map_buttons">
                             <legend>Visualisation Layers</legend>
                         </fieldset>
@@ -182,6 +185,7 @@
                         console.log("The layer checked status is : ", this.checked);
                         if (this.checked) { // Add the layer
                             map.addLayer(mapLayers[this.id]);
+                            ga('send', 'pageview');
                         } else {
                             map.removeLayer(mapLayers[this.id]);
                         }
