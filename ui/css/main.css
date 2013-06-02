@@ -19,6 +19,7 @@
             }
             h1, h2, h3, .hero-unit h1 {
                 color: #fff;
+                padding-top: .5em;
             }
             .hero-unit {
                 background-color: #4a687c;
@@ -28,6 +29,7 @@
                 background-image: url('../img/evolve-sa-logo-main-nav.png');
                 width: 192px;
                 height: 40px;
+                background-repeat: no-repeat;
             }
             
             .navbar a.brand {
