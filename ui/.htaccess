@@ -26,7 +26,9 @@
   </FilesMatch>
 </IfModule>
 
+RewriteEngine On
 
+Redirect 301 /video http://www.youtube.com/watch?v=oHg5SJYRHA0
 # ----------------------------------------------------------------------
 # Cross-domain AJAX requests
 # ----------------------------------------------------------------------
