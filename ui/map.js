@@ -70,22 +70,22 @@ var panZoom = new GeoExt.Action({
 		layerRuler.removeFeatures(layerRuler.features);
 	}
 });
-
+var contents$ = $('#map-container');
 var mapPanel = new GeoExt.MapPanel({
 	map : map,
 	collapsible : false,
 	frame : false,
 	items : [ zoomSlider ],
-	width : $('#contents').width(),
-	height : $('#contents').height(),
-	renderTo : "mapView"
+	width : contents$.width(),
+	height : contents$.height(),
+	renderTo : "map-inner"
 });
 
 // set map
 map.setCenter(new OpenLayers.LonLat(138, -34));
 map.zoomTo(3);
 
-var contents$ = $('#contents');
+
 
 // handle window resize events
 $(window).resize(function() {

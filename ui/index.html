@@ -29,7 +29,16 @@
             #main-nav-logo {
                 background-image: url('img/evolve-sa-logo-main-nav.png');
                 width: 171px;
-                height: 55px;
+                height: 37px;
+            }
+            a.brand {
+                margin: 0;
+                padding:0;
+            }
+            
+            #map-container {
+                width: 600px;
+                height: 400px;
             }
         </style>
         <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
@@ -48,11 +57,11 @@
         <script src="lib/meny/meny.min.js" type="text/javascript"></script>
         <link rel="stylesheet" type="text/css" href="css/meny.css"></link>
         <link rel="stylesheet" type="text/css" href="css/hakman.css"></link>
-        <link rel="stylesheet" type="text/css" href="lib/gxp-3.0.1/theme/all.css"></link>
-        <link rel="stylesheet" type="text/css" href="lib/ol-2.12/theme/default/style.css"></link>
+
         -->
         <!-- style -->
-
+        <link rel="stylesheet" type="text/css" href="lib/gxp-3.0.1/theme/all.css"></link>
+        <link rel="stylesheet" type="text/css" href="lib/ol-2.12/theme/default/style.css"></link>
         <link rel="stylesheet" type="text/css" href="lib/ext-3.4.1/resources/css/ext-all.css"></link>
         <link rel="stylesheet" type="text/css" href="lib/ext-3.4.1/resources/css/xtheme-gray.css"></link>
         <link rel="stylesheet" type="text/css" href="lib/GeoExt-1.1/resources/css/geoext-all-debug.css"></link>
@@ -118,8 +127,8 @@
             </div>
             <div class="row">
                 <div class="row12">
-                    <div id="contents" class="contents">
-                        <div id="panel"></div>
+                    <div id="map-container" class="contents">
+                        <div id="map-inner"></div>
                     </div>
                 </div>
 
@@ -152,31 +161,33 @@
 
             </div> <!-- /container -->
         </div>
+        <!--
             <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
             <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-
             <script src="js/vendor/bootstrap.min.js"></script>
+-->
 
             <script src="js/plugins.js"></script>
             <script src="js/main.js"></script>
 
 
 
-            <!-- ExtJS 
+            <!-- ExtJS  -->
             <script src="lib/ext-3.4.1/adapter/ext/ext-base.js" type="text/javascript"></script>
             <script src="lib/ext-3.4.1/ext-all.js"  type="text/javascript"></script>
 
 
-            <!-- OpenLayers 
+            <!-- OpenLayers --> 
             <script src="lib/ol-2.12/OpenLayers.js" type="text/javascript"></script>
 
-            <!-- GeoExt 
+            <!-- GeoExt -->
+
             <script src="lib/GeoExt-1.1/lib/GeoExt.js" type="text/javascript"></script>
-
             <!-- jQuery
-            <script src="lib/jquery/jquery-1.10.1.min.js" type="text/javascript"></script>
             -->
+            <script src="lib/jquery/jquery-1.10.1.min.js" type="text/javascript"></script>
 
+            <script src="map.js"></script>
 
 <script>
     // Google Analytics
