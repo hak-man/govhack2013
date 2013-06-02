@@ -1,3 +1,4 @@
 RewriteEngine On
 
-Redirect 301 /video https://vimeo.com/67489171
+#Redirect 302 /video https://vimeo.com/67489171
+Redirect 302 /video http://www.youtube.com/watch?v=JCv26pval4M
