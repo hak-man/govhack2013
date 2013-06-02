@@ -4,12 +4,85 @@
    Author's custom styles
    ========================================================================== */
 
-
+/*
 #map-container {
 	width: 100%;
 	height: 600px;
 }
+*/
+            body {
+                padding-top: 60px;
+                padding-bottom: 40px;
+                /* background-image: URL('img/bg_cartographer_@2x.png'); */
+                background-image: url('../img/bg_cartographer.jpg');
+                color: #ccc;
+            }
+            h1, h2, h3, .hero-unit h1 {
+                color: #fff;
+            }
+            .hero-unit {
+                background-color: #4a687c;
+            }
 
+            #main-nav-logo {
+                background-image: url('../img/evolve-sa-logo-main-nav.png');
+                width: 171px;
+                height: 40px;
+            }
+            
+            .navbar a.brand {
+                margin: 0;
+                padding:0;
+                padding-right: 10px;
+            }
+
+            #map-container {
+                width: 80%;
+                height: 600px;
+            }
+
+            #map-inner img {
+                max-width: none;
+            }
+
+
+            /* Sticky footer styles
+            -------------------------------------------------- */
+
+            html,
+            body {
+                height: 100%;
+                /* The html and body elements cannot have any padding or margin. */
+            }
+
+            /* Wrapper for page content to push down footer */
+            #wrap {
+                min-height: 100%;
+                height: auto !important;
+                height: 100%;
+                /* Negative indent footer by it's height */
+                margin: 0 auto -60px;
+                padding-top: 60px;
+            }
+
+            /* Set the fixed height of the footer here */
+            #push,
+            #footer {
+                height: 60px;
+            }
+            #footer {
+                background-color: #f5f5f5;
+            }
+
+            /* Lastly, apply responsive CSS fixes as necessary */
+            @media (max-width: 767px) {
+                #footer {
+                    margin-left: -20px;
+                    margin-right: -20px;
+                    padding-left: 20px;
+                    padding-right: 20px;
+                }
+            }
 
 
 

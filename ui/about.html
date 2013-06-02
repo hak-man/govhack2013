@@ -12,79 +12,9 @@
 
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <style>
-            body {
-                padding-top: 60px;
-                padding-bottom: 40px;
-                /* background-image: URL('img/bg_cartographer_@2x.png'); */
-                background-image: url('img/bg_cartographer.jpg');
-                color: #ccc;
-            }
-            h1, h2, h3, .hero-unit h1 {
-                color: #fff;
-            }
-            .hero-unit {
-                background-color: #4a687c;
-            }
-
-            #main-nav-logo {
-                background-image: url('img/evolve-sa-logo-main-nav.png');
-                width: 192px;
-                height: 40px;
-            }
             
-            a.brand {
-                margin: 0;
-                padding:0;
-            }
-
-            #map-container {
-                width: 600px;
-                height: 400px;
-            }
-
-            #map-inner img {
-                max-width: none;
-            }
-
-
-            /* Sticky footer styles
-            -------------------------------------------------- */
-
-            html,
-            body {
-                height: 100%;
-                /* The html and body elements cannot have any padding or margin. */
-            }
-
-            /* Wrapper for page content to push down footer */
-            #wrap {
-                min-height: 100%;
-                height: auto !important;
-                height: 100%;
-                /* Negative indent footer by it's height */
-                margin: 0 auto -60px;
-            }
-
-            /* Set the fixed height of the footer here */
-            #push,
-            #footer {
-                height: 60px;
-            }
-            #footer {
-                background-color: #f5f5f5;
-            }
-
-            /* Lastly, apply responsive CSS fixes as necessary */
-            @media (max-width: 767px) {
-                #footer {
-                    margin-left: -20px;
-                    margin-right: -20px;
-                    padding-left: 20px;
-                    padding-right: 20px;
-                }
-            }
         </style>
-        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
+        
 
 
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
@@ -102,10 +32,11 @@
         -->
         <!-- style -->
         <link rel="stylesheet" type="text/css" href="lib/ol-2.12/theme/default/style.css"></link>
-        <link rel="stylesheet" type="text/css" href="lib/ext-3.4.1/resources/css/ext-all.css"></link>
+        <!-- <link rel="stylesheet" type="text/css" href="lib/ext-3.4.1/resources/css/ext-all.css"></link> -->
         <link rel="stylesheet" type="text/css" href="lib/ext-3.4.1/resources/css/xtheme-gray.css"></link>
         <link rel="stylesheet" type="text/css" href="lib/GeoExt-1.1/resources/css/geoext-all-debug.css"></link>
         <link rel="stylesheet" type="text/css" href="lib/gxp-3.0.1/theme/all.css"></link>
+        <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
         <link rel="stylesheet" type="text/css" href="css/hakman.css"></link>
         <!-- <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script> -->
         <link rel="stylesheet" href="css/main.css">
@@ -128,8 +59,8 @@
                         <a class="brand" href="#"><div class="nav-logo" id="main-nav-logo"/></div></a>
                     <div class="nav-collapse collapse">
                         <ul class="nav">
-                            <li class="active"><a href="#">Home</a></li>
-                            <li><a href="/about.html">About</a></li>
+                            <li><a href="/index.html">Home</a></li>
+                            <li class="active"><a href="/about.html">About</a></li>
                         </ul>
                     </div>
                 </div>
@@ -139,42 +70,49 @@
         <div class="container">
             <div class="row">
                 <div class="row12">
-                    <p><a href="http://www.evolvesa.org/"><img alt="EvolveSA" src="https://dl.dropboxusercontent.com/s/7q1ayb0dd3uxf4s/evolve-sa-logo.png?token_hash=AAE7dJxZX_94jLhU9IXZWrH-gsesjOelCVC-OEzRRr0h9w&amp;dl=1"></a></p>
+            <p>This data visualisation tool can be used to make decisions on where infrastructure and services are required for the changing population over time. The current data we have is based on SA data until 2025 but this can be expanded Australia wide once we acquire further data.</p>
 
-                    <p>This data visualisation tool can be used to make decisions on where infrastructure and services are required for the changing population over time. The current data we have is based on SA data until 2025 but this can be expanded Australia wide once we acquire further data.</p>
+            <p>Currently the data we have is on hospitals, however we can also add in more services (ie. Schools, open spaces, child care centres, roads, fire services etc).&nbsp; The heat map displays the current data on the location of hospitals and the demographics and density of population living in local government areas.</p>
 
-                    <p>Currently the data we have is on hospitals, however we can also add in more services (ie. Schools, open spaces, child care centres, roads, fire services etc).&nbsp; The heat map displays the current data on the location of hospitals and the demographics and density of population living in local government areas.</p>
+            <p><strong>Background</strong></p>
 
-                    <p><strong>Target Market</strong></p>
+            <p>Our team used the data because it was the most detailed geographical data that would have impact in our lives.</p>
 
-                    <p>This will include (but is not limited to):</p>
+            <p>The data we used was the predicted population demographics data and the hospital locations from 2010-2025 (ie. age ranges 0-4, 5-9, 10-14, 15-19, 20-24, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, 70-74, 75-79, 80-84, 85+).</p>
 
-                    <ul>
-                            <li>Corporate Bodies (Government, Organisations and Decision Makers) to assist them with their planning of infrastructure and service requirements in the future.</li>
-                            <li>Small Business/Investors – may use this information when planning to build or start a new business in the future</li>
-                    </ul>
+            <p>Our data visulisation tool can be found on our website <u><a href="http://www.evolvesa.org/">http://www.evolvesa.org/</a></u></p>
 
-                    <p><strong>What is a Heatmap</strong></p>
+            <p><strong>Target Market</strong></p>
 
-                    <p>A heatmap is a visualization used for visualizing three dimensional data. Two dimensions represent cartesian coordinates (x and y values) and the third dimension is used for showing the intensity of a datapoint in relative comparison to the absolute maximum of the dataset. The intensity is shown as a color, usually red (hot) is used for the maxima and blue (cold) for minima.</p>
+            <p>This will include (but is not limited to):</p>
 
-                    <p>Our heat map demonstrates the population demographics and density where red is bad and green is good.</p>
+            <ul>
+                    <li>Corporate Bodies (Government, Organisations and Decision Makers) to assist them with their planning of infrastructure and service requirements in the future.</li>
+                    <li>Small Business/Investors – may use this information when planning to build or start a new business in the future</li>
+            </ul>
 
-                    <p><strong>Risk Management</strong></p>
+            <p><strong>What is a Heatmap</strong></p>
 
-                    <p>Some of the factors to consider are:</p>
+            <p>A heatmap is a visualization used for visualizing three dimensional data. Two dimensions represent cartesian coordinates (x and y values) and the third dimension is used for showing the intensity of a datapoint in relative comparison to the absolute maximum of the dataset. The intensity is shown as a color, usually red (hot) is used for the maxima and blue (cold) for minima.</p>
 
-                    <p>Incorrect data from data.sa.gov.au<br>
-                    Outside factors such as large businesses closing down (ie. Holden)<br>
-                    Government opening up new land (ie. Virginia)</p>
+            <p>Our heat map demonstrates the population demographics and density where red is bad and green is good.</p>
 
-                    <p><strong>References</strong></p>
+            <p><strong>Risk Management</strong></p>
 
-                    <p>Gazetteer - <a href="http://data.sa.gov.au/dataset/gazetteer">http://data.sa.gov.au/dataset/gazetteer</a><br>
-                    Local Government Areas - <a href="http://data.sa.gov.au/dataset/local-government-areas">http://data.sa.gov.au/dataset/local-government-areas</a><br>
-                    Suburbs - <a href="http://data.sa.gov.au/dataset/suburb-boundaries">http://data.sa.gov.au/dataset/suburb-boundaries</a><br>
-                    Social Health Atlas - <a href="http://data.sa.gov.au/dataset/social-health-atlas">http://data.sa.gov.au/dataset/social-health-atlas</a></p>
-                </div>
+            <p>Some of the factors to consider are:</p>
+
+            <ul>
+                    <li>Incorrect data from data.sa.gov.au</li>
+                    <li>Outside factors such as large businesses closing down (ie. Holden)</li>
+                    <li>Government opening up new land (ie. Virginia)</li>
+            </ul>
+
+            <p><strong>References</strong></p>
+
+            <p>Gazetteer - <a href="http://data.sa.gov.au/dataset/gazetteer">http://data.sa.gov.au/dataset/gazetteer</a><br>
+            Local Government Areas - <a href="http://data.sa.gov.au/dataset/local-government-areas">http://data.sa.gov.au/dataset/local-government-areas</a><br>
+            Suburbs - <a href="http://data.sa.gov.au/dataset/suburb-boundaries">http://data.sa.gov.au/dataset/suburb-boundaries</a><br>
+            Social Health Atlas - <a href="http://data.sa.gov.au/dataset/social-health-atlas">http://data.sa.gov.au/dataset/social-health-atlas</a></p></div>
             </div>
         </div>
         <div id="push"></div>
