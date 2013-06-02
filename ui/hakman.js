@@ -35,6 +35,9 @@ Ext.onReady(function() {
 	var openStreetMap = new OpenLayers.Layer.WMS( "OSGEO Base Map",
 			"http://vmap0.tiles.osgeo.org/wms/vmap0", {layers: 'basic'}, {wrapDateLine: true, transitionEffect: 'resize'} ); 
 	
+	var pop2010HeatMap = new OpenLayers.Layer.WMS( "2010 Population Heat Map",
+			"http://evolvesa.org:8080/geoserver/govhack/wms?service=WMS&version=1.1.0", {layers: 'govhack:lga_pop_2010_heatmap', transparent: true, format: "image/png"}, {isBaseLayer: false, wrapDateLine: true, transitionEffect: 'resize', opacity: 0.7} );
+	
 	// create our heatmap layer
 //	var heatmap = new OpenLayers.Layer.Heatmap("Heatmap Layer", map, layer, 
 //			{visible: true, radius:10}, 
@@ -43,7 +46,7 @@ Ext.onReady(function() {
 	
 	map.addLayer(layer);
 	map.addLayer(openStreetMap);
-//	map.addLayer(heatmap);
+	map.addLayer(pop2010HeatMap);
 //	
 //	//---
 //	// Heatmap test data
@@ -173,15 +176,15 @@ Ext.onReady(function() {
 		text: "<b>&nbsp;Overlays</b>",
 		expanded: true,
 		singleClickExpand: true,
-		children: [/*{
+		children: [{
 			nodeType: "gx_layer",
-			layer: heatmap,
+			layer: pop2010HeatMap,
 			listeners: {
 				click: function () {
 					opacitySlider.setLayer(this.layer);
 				}
 			}
-		}*/]
+		}]
 		},{
 		text: "<b>&nbsp;Base Layer</b>",
 		expanded: true,
