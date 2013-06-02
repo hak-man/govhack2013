@@ -70,8 +70,12 @@
                 <div class="row12">
                     <p>This data visualisation tool can be used to make decisions on where infrastructure and services are required for the changing population over time. The current data we have is based on SA data until 2025 but this can be expanded Australia wide once we acquire further data.</p>
 
-                    <p>Currently the data we have is on hospitals, however we can also add in more services (ie. Schools, open spaces, child care centres, roads, fire services etc).&nbsp; The heat map displays the current data on the location of hospitals and the demographics and density of population living in local government areas.</p>
+                    <p>The tool aims to visualise the accessibility of services by the population based on expected travel time (across all modes of transport i.e. car, pedestrian, public transport) instead of using a simple geographic proximity approach. To achieve this a data set for the fully connected graph of places where people live to all the services that they access is needed. For each link in this graph the tool evaluates the travel time for each mode of transport. This task is exceptionally compuationally intensive with exponencial complexity scaling as precision increases. For the purposes of GovHack we have chosen to evaluate hospitals data only because there are only 130 such facilities in the state. The precision of point of interest used is per LGA because there are 70 of these points thus limiting our route evaluation to ~9000 routes per mode of transport.</p>
+                    
+                    <p>The future versions of the tool would consider more services (ie. Schools, open spaces, child care centres, roads, fire services etc).  The heat map displays the current data on the location of hospitals and the demographics and density of population living in local government areas.</p>
 
+                    <iframe width="640" height="360" src="http://www.youtube.com/embed/WDe35bCeNB0" frameborder="0" allowfullscreen></iframe>
+                    <br />
                     <h2>Background</h2>
 
                     <p>Our team used the data because it was the most detailed geographical data that would have impact in our lives.</p>

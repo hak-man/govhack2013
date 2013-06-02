@@ -34,8 +34,14 @@
         <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/main.css">
         <style>
-        #wrap {
+            #wrap {
                 padding-top: 10px;
+            }
+            label {
+                display: inline;
+            }
+            legend {
+                color: #ccc;
             }
         </style>
 
@@ -95,10 +101,26 @@
                 <p><a class="btn btn-primary btn-large">Learn more &raquo;</a></p>
             </div> -->
             <div class="row">
-                <div class="span12">
+                <div class="span10">
                     <div id="map-container" class="contents">
                         <div id="map-inner"></div>
                     </div>
+                </div>
+                <div class="span2">
+                    <fieldset>
+                        <legend>Visualisation Layers</legend>
+                        <input id="Population2010" type="checkbox" value="population2010" />
+                        <label for="Population2010">Population 2010</label>
+                        <br />
+                        <input id="Population2015" type="checkbox" value="population2015" />
+                        <label for="Population2015">Population2015</label> 
+                        <br />
+                        <input id="Population2020" type="checkbox" value="population2020" />
+                        <label for="Population2020">Population2020</label> 
+                        <br />
+                        <input id="Population2025" type="checkbox" value="population2025" />
+                        <label for="Population2025">Population2025</label> 
+                    </fieldset>
                 </div>
             </div>
             <div class="row">

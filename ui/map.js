@@ -59,11 +59,45 @@ Ext.onReady(function() {
 				transitionEffect: 'resize',
 				singleTile: true
 			} );
+	var pop2010LGA = new OpenLayers.Layer.WMS(
+			"2010 LGA Shapes",
+			"http://evolvesa.org:8080/geoserver/govhack/wms?service=WMS&version=1.1.0",
+			{
+				LAYERS: 'govhack:lga_pop_2010_norm',
+				STYLES: '',
+				format: format,
+				transparent: true
+			},
+			{
+				buffer: 1,
+				isBaseLayer: false,
+				yx : {'EPSG:4326' : true}, 
+				transitionEffect: 'resize',
+				singleTile: true
+			} );
+	var pop2010hospheat = new OpenLayers.Layer.WMS(
+			"2010 Hospital Heatmap",
+			"http://evolvesa.org:8080/geoserver/govhack/wms?service=WMS&version=1.1.0",
+			{
+				LAYERS: 'hospital_heatmap_2010',
+				STYLES: '',
+				format: format,
+				transparent: true
+			},
+			{
+				buffer: 1,
+				isBaseLayer: false,
+				yx : {'EPSG:4326' : true}, 
+				transitionEffect: 'resize',
+				singleTile: true
+			} );
 
 
+	map.addLayer(pop2010LGA);
 	map.addLayer(openStreetMap);
 //	map.addLayer(blueMarble);
 	map.addLayer(pop2010HeatMap);
+	map.addLayer(pop2010hospheat);
 
 	//	---
 	//	Controls
