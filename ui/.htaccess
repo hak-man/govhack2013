@@ -1,4 +1,8 @@
 RewriteEngine On
 
 #Redirect 302 /video https://vimeo.com/67489171
-Redirect 302 /video http://www.youtube.com/watch?v=JCv26pval4M
+# First version
+#Redirect 302 /video http://www.youtube.com/watch?v=JCv26pval4M
+
+Redirect 302 /video http://www.youtube.com/watch?v=WDe35bCeNB0
+# Take 2, mono audio
