@@ -10,13 +10,6 @@
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width">
 
-        <link rel="stylesheet" href="css/bootstrap.min.css">
-        <style>
-            
-        </style>
-        
-
-
         <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon" />
         <link rel="apple-touch-icon" href="/site/apple-touch-icon.png" />
         <link rel="apple-touch-icon" sizes="57x57" href="/site/apple-touch-icon-57x57.png" />
@@ -29,19 +22,24 @@
         <!--
         <script src="lib/meny/meny.min.js" type="text/javascript"></script>
         <link rel="stylesheet" type="text/css" href="css/meny.css"></link>
-        -->
-        <!-- style -->
         <link rel="stylesheet" type="text/css" href="lib/ol-2.12/theme/default/style.css"></link>
-        <!-- <link rel="stylesheet" type="text/css" href="lib/ext-3.4.1/resources/css/ext-all.css"></link> -->
         <link rel="stylesheet" type="text/css" href="lib/ext-3.4.1/resources/css/xtheme-gray.css"></link>
         <link rel="stylesheet" type="text/css" href="lib/GeoExt-1.1/resources/css/geoext-all-debug.css"></link>
         <link rel="stylesheet" type="text/css" href="lib/gxp-3.0.1/theme/all.css"></link>
+        -->
+        <!-- style -->
+        <!-- <link rel="stylesheet" type="text/css" href="lib/ext-3.4.1/resources/css/ext-all.css"></link> -->
+        <link rel="stylesheet" href="css/bootstrap.min.css">
         <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
         <link rel="stylesheet" type="text/css" href="css/hakman.css"></link>
         <!-- <script src="js/vendor/modernizr-2.6.2-respond-1.1.0.min.js"></script> -->
         <link rel="stylesheet" href="css/main.css">
 
-
+        <style>
+            #wrap {
+                padding-top: 10px;
+            }
+        </style>
     </head>
     <body>
         <!--[if lt IE 7]>
@@ -70,49 +68,65 @@
         <div class="container">
             <div class="row">
                 <div class="row12">
-            <p>This data visualisation tool can be used to make decisions on where infrastructure and services are required for the changing population over time. The current data we have is based on SA data until 2025 but this can be expanded Australia wide once we acquire further data.</p>
+                    <p>This data visualisation tool can be used to make decisions on where infrastructure and services are required for the changing population over time. The current data we have is based on SA data until 2025 but this can be expanded Australia wide once we acquire further data.</p>
 
-            <p>Currently the data we have is on hospitals, however we can also add in more services (ie. Schools, open spaces, child care centres, roads, fire services etc).&nbsp; The heat map displays the current data on the location of hospitals and the demographics and density of population living in local government areas.</p>
+                    <p>Currently the data we have is on hospitals, however we can also add in more services (ie. Schools, open spaces, child care centres, roads, fire services etc).&nbsp; The heat map displays the current data on the location of hospitals and the demographics and density of population living in local government areas.</p>
 
-            <p><strong>Background</strong></p>
+                    <p><strong>Background</strong></p>
 
-            <p>Our team used the data because it was the most detailed geographical data that would have impact in our lives.</p>
+                    <p>Our team used the data because it was the most detailed geographical data that would have impact in our lives.</p>
 
-            <p>The data we used was the predicted population demographics data and the hospital locations from 2010-2025 (ie. age ranges 0-4, 5-9, 10-14, 15-19, 20-24, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, 70-74, 75-79, 80-84, 85+).</p>
+                    <p>The data we used was the predicted population demographics data and the hospital locations from 2010-2025 (ie. age ranges 0-4, 5-9, 10-14, 15-19, 20-24, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, 70-74, 75-79, 80-84, 85+).</p>
 
-            <p>Our data visulisation tool can be found on our website <u><a href="http://www.evolvesa.org/">http://www.evolvesa.org/</a></u></p>
+                    <p>Our data visulisation tool can be found on our website <u><a href="http://www.evolvesa.org/">http://www.evolvesa.org/</a></u></p>
 
-            <p><strong>Target Market</strong></p>
+                    <p><strong>Target Market</strong></p>
 
-            <p>This will include (but is not limited to):</p>
+                    <p>This will include (but is not limited to):</p>
 
-            <ul>
-                    <li>Corporate Bodies (Government, Organisations and Decision Makers) to assist them with their planning of infrastructure and service requirements in the future.</li>
-                    <li>Small Business/Investors – may use this information when planning to build or start a new business in the future</li>
-            </ul>
+                    <ul>
+                        <li>Corporate Bodies (Government, Organisations and Decision Makers) to assist them with their planning of infrastructure and service requirements in the future.</li>
+                        <li>Small Business/Investors – may use this information when planning to build or start a new business in the future</li>
+                    </ul>
 
-            <p><strong>What is a Heatmap</strong></p>
+                    <p><strong>What is a Heatmap</strong></p>
 
-            <p>A heatmap is a visualization used for visualizing three dimensional data. Two dimensions represent cartesian coordinates (x and y values) and the third dimension is used for showing the intensity of a datapoint in relative comparison to the absolute maximum of the dataset. The intensity is shown as a color, usually red (hot) is used for the maxima and blue (cold) for minima.</p>
+                    <p>A heatmap is a visualization used for visualizing three dimensional data. Two dimensions represent cartesian coordinates (x and y values) and the third dimension is used for showing the intensity of a datapoint in relative comparison to the absolute maximum of the dataset. The intensity is shown as a color, usually red (hot) is used for the maxima and blue (cold) for minima.</p>
 
-            <p>Our heat map demonstrates the population demographics and density where red is bad and green is good.</p>
+                    <p>Our heat map demonstrates the population demographics and density where red is bad and green is good.</p>
 
-            <p><strong>Risk Management</strong></p>
+                    <p><strong>Risk Management</strong></p>
 
-            <p>Some of the factors to consider are:</p>
+                    <p>Some of the factors to consider are:</p>
 
-            <ul>
-                    <li>Incorrect data from data.sa.gov.au</li>
-                    <li>Outside factors such as large businesses closing down (ie. Holden)</li>
-                    <li>Government opening up new land (ie. Virginia)</li>
-            </ul>
+                    <ul>
+                        <li>Incorrect data from data.sa.gov.au</li>
+                        <li>Outside factors such as large businesses closing down (ie. Holden)</li>
+                        <li>Government opening up new land (ie. Virginia)</li>
+                    </ul>
 
-            <p><strong>References</strong></p>
+                    <p><strong>References</strong></p>
 
-            <p>Gazetteer - <a href="http://data.sa.gov.au/dataset/gazetteer">http://data.sa.gov.au/dataset/gazetteer</a><br>
-            Local Government Areas - <a href="http://data.sa.gov.au/dataset/local-government-areas">http://data.sa.gov.au/dataset/local-government-areas</a><br>
-            Suburbs - <a href="http://data.sa.gov.au/dataset/suburb-boundaries">http://data.sa.gov.au/dataset/suburb-boundaries</a><br>
-            Social Health Atlas - <a href="http://data.sa.gov.au/dataset/social-health-atlas">http://data.sa.gov.au/dataset/social-health-atlas</a></p></div>
+                    <p>Gazetteer - <a href="http://data.sa.gov.au/dataset/gazetteer">http://data.sa.gov.au/dataset/gazetteer</a><br>
+                        Local Government Areas - <a href="http://data.sa.gov.au/dataset/local-government-areas">http://data.sa.gov.au/dataset/local-government-areas</a><br>
+                        Suburbs - <a href="http://data.sa.gov.au/dataset/suburb-boundaries">http://data.sa.gov.au/dataset/suburb-boundaries</a><br>
+                        Social Health Atlas - <a href="http://data.sa.gov.au/dataset/social-health-atlas">http://data.sa.gov.au/dataset/social-health-atlas</a></p></div>
+
+
+                <h2>Team</h2>
+                <p>The HakMan team which has developed EvolveSA worked over the weekend of the 1st and 2nd of June 2013. We found that our natural talents complimented each other but we also all learnt a lot.
+                    Members of the team include : </p>
+                <ul>
+                    <li>Andrew Zschorn</li>
+                    <li>Felescia Schemmer</li>
+                    <li>Greg Bowering</li>
+                    <li>Hing-Wah Kwok</li>
+                    <li>Kuba Kabacinski</li>
+                    <li>Marcin Nowina-Krowicki</li>
+                    <li>Michael Kubler</li>
+                    <li>Tammy Creaser</li>
+                    <li>Tony Allard</li>
+                </ul>
             </div>
         </div>
         <div id="push"></div>
