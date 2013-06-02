@@ -54,10 +54,12 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </a>
-                        <a class="brand" href="#"><div class="nav-logo" id="main-nav-logo"/></div></a>
+                        <a class="brand" href="/">
+                            <div class="nav-logo" id="main-nav-logo"/></div>
+                        </a>
                     <div class="nav-collapse collapse">
                         <ul class="nav">
-                            <li><a href="/index.html">Home</a></li>
+                            <li><a href="/">Home</a></li>
                             <li class="active"><a href="/about.html">About</a></li>
                         </ul>
                     </div>
@@ -68,10 +70,12 @@
         <div class="container">
             <div class="row">
                 <div class="row12">
+                    <h1>About</h1>
+                    <p>EvolveSA was created at <a href="http://unleashedadelaide.dptiapps.com.au/">Unleashed Adelaide</a> / <a href="http://www.govhack.org/">GovHack</a> on the weekend of the 1st and 2nd of June 2013.</p>
                     <p>This data visualisation tool can be used to make decisions on where infrastructure and services are required for the changing population over time. The current data we have is based on SA data until 2025 but this can be expanded Australia wide once we acquire further data.</p>
 
                     <p>The tool aims to visualise the accessibility of services by the population based on expected travel time (across all modes of transport i.e. car, pedestrian, public transport) instead of using a simple geographic proximity approach. To achieve this a data set for the fully connected graph of places where people live to all the services that they access is needed. For each link in this graph the tool evaluates the travel time for each mode of transport. This task is exceptionally compuationally intensive with exponencial complexity scaling as precision increases. For the purposes of GovHack we have chosen to evaluate hospitals data only because there are only 130 such facilities in the state. The precision of point of interest used is per LGA because there are 70 of these points thus limiting our route evaluation to ~9000 routes per mode of transport.</p>
-                    
+
                     <p>The future versions of the tool would consider more services (ie. Schools, open spaces, child care centres, roads, fire services etc).  The heat map displays the current data on the location of hospitals and the demographics and density of population living in local government areas.</p>
 
                     <iframe width="640" height="360" src="http://www.youtube.com/embed/WDe35bCeNB0" frameborder="0" allowfullscreen></iframe>
@@ -81,8 +85,6 @@
                     <p>Our team used the data because it was the most detailed geographical data that would have impact in our lives.</p>
 
                     <p>The data we used was the predicted population demographics data and the hospital locations from 2010-2025 (ie. age ranges 0-4, 5-9, 10-14, 15-19, 20-24, 25-29, 30-34, 35-39, 40-44, 45-49, 50-54, 55-59, 60-64, 65-69, 70-74, 75-79, 80-84, 85+).</p>
-
-                    <p>Our data visulisation tool can be found on our website <u><a href="http://www.evolvesa.org/">http://www.evolvesa.org/</a></u></p>
 
                     <h2>Target Market</h2>
 
@@ -115,6 +117,9 @@
                         Local Government Areas - <a href="http://data.sa.gov.au/dataset/local-government-areas">http://data.sa.gov.au/dataset/local-government-areas</a><br>
                         Suburbs - <a href="http://data.sa.gov.au/dataset/suburb-boundaries">http://data.sa.gov.au/dataset/suburb-boundaries</a><br>
                         Social Health Atlas - <a href="http://data.sa.gov.au/dataset/social-health-atlas">http://data.sa.gov.au/dataset/social-health-atlas</a></p></div>
+                
+                <h2>Copyleft</h2>
+                <p><a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/au/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/au/80x15.png" /></a> <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/InteractiveResource" property="dct:title" rel="dct:type">Heatmap of 2012 population in South Australia (according to Local Government Area)</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://www.evolvesa.org/" property="cc:attributionName" rel="cc:attributionURL">EvolveSA</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/au/deed.en_US">Creative Commons Attribution-ShareAlike 3.0 Australia License</a>.<br />Based on a work at <a xmlns:dct="http://purl.org/dc/terms/" href="http://www.evolvesa.org/" rel="dct:source">http://www.evolvesa.org/</a></p>
 
 
                 <h2>Team</h2>
@@ -137,7 +142,7 @@
     </div><!-- /wrap -->
     <footer>
         <div class="container">
-            <p class="muted credit">Released by EvolveSA as Creative Commons, Share and Share Alike : 2013</p>
+            <p class="muted credit">Released by EvolveSA as <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/au/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/au/80x15.png" /></a></p>
         </div>
     </footer>
 

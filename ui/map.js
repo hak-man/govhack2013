@@ -27,7 +27,7 @@ Ext.onReady(function() {
 			projection: "EPSG:4326",
 			units: 'degrees'
 	};
-	var map = new OpenLayers.Map(options);
+	map = new OpenLayers.Map(options);
 
 
 //	var blueMarble = new OpenLayers.Layer.WMS("Blue Marble - Global Imagery",
@@ -43,6 +43,8 @@ Ext.onReady(function() {
 	var openStreetMap = new OpenLayers.Layer.WMS( "OSGEO Base Map",
 			"http://vmap0.tiles.osgeo.org/wms/vmap0", {layers: 'basic'}, {wrapDateLine: true, transitionEffect: 'resize'} );
 
+
+        
 	var pop2010HeatMap = new OpenLayers.Layer.WMS(
 			"2010 Population Heat Map",
 			"http://evolvesa.org:8080/geoserver/govhack/wms?service=WMS&version=1.1.0",
@@ -59,6 +61,7 @@ Ext.onReady(function() {
 				transitionEffect: 'resize',
 				singleTile: true
 			} );
+        
 	var pop2010LGA = new OpenLayers.Layer.WMS(
 			"2010 LGA Shapes",
 			"http://evolvesa.org:8080/geoserver/govhack/wms?service=WMS&version=1.1.0",
@@ -92,12 +95,18 @@ Ext.onReady(function() {
 				singleTile: true
 			} );
 
+        mapLayers = {
+            'pop2010LGA': pop2010LGA,
+            'openStreetMap': openStreetMap,
+            'pop2010HeatMap': pop2010HeatMap,
+            'pop2010hospheat': pop2010hospheat
+        }; // A global array of the Open Layers. For the add/remove checkboxes
 
-	map.addLayer(pop2010LGA);
-	map.addLayer(openStreetMap);
 //	map.addLayer(blueMarble);
-	map.addLayer(pop2010HeatMap);
-	map.addLayer(pop2010hospheat);
+	map.addLayer(mapLayers['pop2010LGA']);
+	map.addLayer(mapLayers['openStreetMap']);
+	map.addLayer(mapLayers['pop2010HeatMap']);
+	map.addLayer(mapLayers['pop2010hospheat']);
 
 	//	---
 	//	Controls

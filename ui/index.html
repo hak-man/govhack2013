@@ -59,10 +59,12 @@
                             <span class="icon-bar"></span>
                             <span class="icon-bar"></span>
                         </a>
-                        <a class="brand" href="#"><div class="nav-logo" id="main-nav-logo"/></div></a>
+                        <a class="brand" href="/">
+                            <div class="nav-logo" id="main-nav-logo"/></div>
+                    </a>
                     <div class="nav-collapse collapse">
                         <ul class="nav">
-                            <li class="active"><a href="#">Home</a></li>
+                            <li class="active"><a href="/">Home</a></li>
                             <li><a href="/about.html">About</a></li>
                             <!-- 
                             <li><a href="/contact.html">Contact</a></li>
@@ -107,19 +109,8 @@
                     </div>
                 </div>
                 <div class="span2">
-                    <fieldset>
+                    <fieldset id="map_buttons">
                         <legend>Visualisation Layers</legend>
-                        <input id="Population2010" type="checkbox" value="population2010" />
-                        <label for="Population2010">Population 2010</label>
-                        <br />
-                        <input id="Population2015" type="checkbox" value="population2015" />
-                        <label for="Population2015">Population2015</label> 
-                        <br />
-                        <input id="Population2020" type="checkbox" value="population2020" />
-                        <label for="Population2020">Population2020</label> 
-                        <br />
-                        <input id="Population2025" type="checkbox" value="population2025" />
-                        <label for="Population2025">Population2025</label> 
                     </fieldset>
                 </div>
             </div>
@@ -133,14 +124,11 @@
     </div><!-- /wrap -->
     <footer>
         <div class="container">
-            <p class="muted credit">Released by EvolveSA as Creative Commons, Share and Share Alike : 2013</p>
+            <p class="muted credit">Released by EvolveSA as <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/au/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/au/80x15.png" /></a></p>
         </div>
     </footer>
-    <!--
-        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
-        <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
-        <script type="text/javascript" src="hakman.js"></script>
-    -->
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script>window.jQuery || document.write('<script src="js/vendor/jquery-1.9.1.min.js"><\/script>')</script>
     <script src="js/vendor/bootstrap.min.js"></script>
     <script src="js/plugins.js"></script>
     <script src="js/main.js"></script>
@@ -164,8 +152,8 @@
 
     <script src="lib/GeoExt-1.1/lib/GeoExt.js" type="text/javascript"></script>
     <!-- jQuery
-    -->
     <script src="lib/jquery/jquery-1.10.1.min.js" type="text/javascript"></script>
+    -->
 
     <script src="map.js"></script>
 
@@ -184,6 +172,32 @@
         })(window, document, 'script', '//www.google-analytics.com/analytics.js', 'ga');
         ga('create', 'UA-41395826-1', 'evolvesa.org');
         ga('send', 'pageview');
+
+
+        $(document).ready(function() {
+
+            setTimeout(function() {
+                $fieldset = $('#map_buttons');
+
+                for (var i in mapLayers) { // Create the list of layers you can switch on/off
+                    console.log("mapLayers element is : ", i, mapLayers[i]);
+                    $fieldset.append('<input id="' + i + '" type="checkbox" value="' + i + '" checked/>\
+                                      <label for="' + i + '">' + mapLayers[i].name + '</label>\
+                                      <br />');
+                }
+                $('#map_buttons input[type="checkbox"]').change(function() { // Let you actually switch the layers off/on
+                    console.log("You changed the layer : ", this.id);
+                    console.log("The layer checked status is : ", this.checked);
+                    if (this.checked) { // Add the layer
+                        map.addLayer(mapLayers[this.id]);
+                    } else {
+                        map.removeLayer(mapLayers[this.id]);
+                    }
+                });
+            }, 200); // Inside a timeout to give the map and mapLayers object time to load, which is required, but this is also kinda lazy and should be done after an custom event trigger
+        });
+
+
     </script>
 </body>
 </html>
