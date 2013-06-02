@@ -19,7 +19,7 @@
                 background-image: url('img/bg_cartographer.jpg');
                 color: #ccc;
             }
-            h1, h2, h3 {
+            h1, h2, h3, .hero-unit h1 {
                 color: #fff;
             }
             .hero-unit {
@@ -40,6 +40,10 @@
                 width: 600px;
                 height: 400px;
             }
+            
+            #map-inner img {
+                max-width: none;
+            }
         </style>
         <link rel="stylesheet" href="css/bootstrap-responsive.min.css">
 
@@ -56,10 +60,10 @@
         <!--
         <script src="lib/meny/meny.min.js" type="text/javascript"></script>
         <link rel="stylesheet" type="text/css" href="css/meny.css"></link>
-        <link rel="stylesheet" type="text/css" href="css/hakman.css"></link>
 
         -->
         <!-- style -->
+        <link rel="stylesheet" type="text/css" href="css/hakman.css"></link>
         <link rel="stylesheet" type="text/css" href="lib/gxp-3.0.1/theme/all.css"></link>
         <link rel="stylesheet" type="text/css" href="lib/ol-2.12/theme/default/style.css"></link>
         <link rel="stylesheet" type="text/css" href="lib/ext-3.4.1/resources/css/ext-all.css"></link>
@@ -108,11 +112,13 @@
                             </li>
                             -->
                         </ul>
+                        <!--
                         <form class="navbar-form pull-right">
                             <input class="span2" type="text" placeholder="Email">
                             <input class="span2" type="password" placeholder="Password">
                             <button type="submit" class="btn">Sign in</button>
                         </form>
+                        -->
                     </div><!--/.nav-collapse -->
                 </div>
             </div>

@@ -2,6 +2,8 @@
 
 /* setting font fixes combobox rendering issues in IE. See
  * http://extjs.com/forum/showthread.php?t=72505 */
+
+/*
 body {
     font-family:helvetica,tahoma,verdana,sans-serif;
 }
@@ -18,7 +20,7 @@ body {
 	width: 100%;
 	height: 100%;
 }
-
+*/
 .layer-switcher {
     background-image: url(../lib/gxp-3.0.1/theme/img/silk/layers.png) !important;
 }
