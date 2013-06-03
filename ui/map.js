@@ -108,7 +108,8 @@ Ext.onReady(function() {
 				isBaseLayer: false,
 				yx : {'EPSG:4326' : true}, 
 				transitionEffect: 'resize',
-				singleTile: true
+				singleTile: true,
+				visibility: false
 			} );
 	var pop2020hospheat = new OpenLayers.Layer.WMS(
 			"2020 Hospital Heat Map",
@@ -124,7 +125,8 @@ Ext.onReady(function() {
 				isBaseLayer: false,
 				yx : {'EPSG:4326' : true}, 
 				transitionEffect: 'resize',
-				singleTile: true
+				singleTile: true,
+				visibility: false
 			} );
 	var pop2025hospheat = new OpenLayers.Layer.WMS(
 			"2025 Hospital Heat Map",
@@ -140,7 +142,8 @@ Ext.onReady(function() {
 				isBaseLayer: false,
 				yx : {'EPSG:4326' : true}, 
 				transitionEffect: 'resize',
-				singleTile: true
+				singleTile: true,
+				visibility: false
 			} );
         
     // added in z-order
