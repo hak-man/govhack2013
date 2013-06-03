@@ -174,20 +174,23 @@
                 setTimeout(function() {
                     $fieldset = $('#map_buttons');
 
-                    for (var i in mapLayers) { // Create the list of layers you can switch on/off
-                        console.log("mapLayers element is : ", i, mapLayers[i]);
-                        $fieldset.append('<input id="' + i + '" type="checkbox" value="' + i + '" checked/>\
-                                          <label for="' + i + '">' + mapLayers[i].name + '</label>\
+                    for (var i=map.layers.length-1; i>0; --i) { // Create the list of layers you can switch on/off (except for base layer)
+                    	var layer = map.layers[i];
+                        console.log("mapLayers element is : ", i, layer);
+                        $fieldset.append('<input id="layer_' + i + '" type="checkbox" value=layer_"' + i + '" checked/>\
+                                          <label for="' + i + '">' + layer.name + '</label>\
                                           <br />');
                     }
                     $('#map_buttons input[type="checkbox"]').change(function() { // Let you actually switch the layers off/on
-                        console.log("You changed the layer : ", this.id);
+                    	var layerId = this.id.substr(this.id.indexOf('_') + 1);
+                    	var layer = map.layers[layerId];
+                        console.log("You changed the layer : ", layerId);
                         console.log("The layer checked status is : ", this.checked);
                         if (this.checked) { // Add the layer
-                            map.addLayer(mapLayers[this.id]);
+                        	layer.setVisibility(true);
                             ga('send', 'pageview');
                         } else {
-                            map.removeLayer(mapLayers[this.id]);
+                        	layer.setVisibility(false);
                         }
                     });
                 }, 200); // Inside a timeout to give the map and mapLayers object time to load, which is required, but this is also kinda lazy and should be done after an custom event trigger

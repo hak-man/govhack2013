@@ -94,19 +94,12 @@ Ext.onReady(function() {
 				transitionEffect: 'resize',
 				singleTile: true
 			} );
-
-        mapLayers = {
-            'pop2010LGA': pop2010LGA,
-            'openStreetMap': openStreetMap,
-            'pop2010HeatMap': pop2010HeatMap,
-            'pop2010hospheat': pop2010hospheat
-        }; // A global array of the Open Layers. For the add/remove checkboxes
-
-//	map.addLayer(blueMarble);
-	map.addLayer(mapLayers['pop2010LGA']);
-	map.addLayer(mapLayers['openStreetMap']);
-	map.addLayer(mapLayers['pop2010HeatMap']);
-	map.addLayer(mapLayers['pop2010hospheat']);
+        
+    // added in z-order
+	map.addLayer(openStreetMap);
+	map.addLayer(pop2010LGA);
+	map.addLayer(pop2010HeatMap);
+	map.addLayer(pop2010hospheat);
 
 	//	---
 	//	Controls
