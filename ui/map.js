@@ -79,10 +79,58 @@ Ext.onReady(function() {
 				singleTile: true
 			} );
 	var pop2010hospheat = new OpenLayers.Layer.WMS(
-			"2010 Hospital Heatmap",
+			"2010 Hospital Heat Map",
 			"http://evolvesa.org:8080/geoserver/govhack/wms?service=WMS&version=1.1.0",
 			{
 				LAYERS: 'hospital_heatmap_2010',
+				STYLES: '',
+				format: format,
+				transparent: true
+			},
+			{
+				buffer: 1,
+				isBaseLayer: false,
+				yx : {'EPSG:4326' : true}, 
+				transitionEffect: 'resize',
+				singleTile: true
+			} );
+	var pop2015hospheat = new OpenLayers.Layer.WMS(
+			"2015 Hospital Heat Map",
+			"http://evolvesa.org:8080/geoserver/govhack/wms?service=WMS&version=1.1.0",
+			{
+				LAYERS: 'hospital_heatmap_2015',
+				STYLES: '',
+				format: format,
+				transparent: true
+			},
+			{
+				buffer: 1,
+				isBaseLayer: false,
+				yx : {'EPSG:4326' : true}, 
+				transitionEffect: 'resize',
+				singleTile: true
+			} );
+	var pop2020hospheat = new OpenLayers.Layer.WMS(
+			"2020 Hospital Heat Map",
+			"http://evolvesa.org:8080/geoserver/govhack/wms?service=WMS&version=1.1.0",
+			{
+				LAYERS: 'hospital_heatmap_2020',
+				STYLES: '',
+				format: format,
+				transparent: true
+			},
+			{
+				buffer: 1,
+				isBaseLayer: false,
+				yx : {'EPSG:4326' : true}, 
+				transitionEffect: 'resize',
+				singleTile: true
+			} );
+	var pop2025hospheat = new OpenLayers.Layer.WMS(
+			"2025 Hospital Heat Map",
+			"http://evolvesa.org:8080/geoserver/govhack/wms?service=WMS&version=1.1.0",
+			{
+				LAYERS: 'hospital_heatmap_2025',
 				STYLES: '',
 				format: format,
 				transparent: true
@@ -100,6 +148,9 @@ Ext.onReady(function() {
 	map.addLayer(pop2010LGA);
 	map.addLayer(pop2010HeatMap);
 	map.addLayer(pop2010hospheat);
+	map.addLayer(pop2015hospheat);
+	map.addLayer(pop2020hospheat);
+	map.addLayer(pop2025hospheat);
 
 	//	---
 	//	Controls
